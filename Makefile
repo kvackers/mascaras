@@ -1,5 +1,5 @@
 build: clean
-	mkdocs build
+	mkdocs build && touch docs/.nojekyll
 
 clean:
 	rm -rf docs
