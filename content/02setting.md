@@ -44,9 +44,55 @@ A maior parte das pessoas dessa geração que ainda estão ativos estão ou tent
 
 ### A Geração de Prata (anos 50 a anos 60)
 
+Teve uma mudança na cena super-heroica da Cidade das Arirambas durante os anos 50. Por razões desconhecidas, super poderes se tornaram mais poderosos, e com seus poderes maiores vieram ameaças ainda maiores.
+
+Muitos superologistas consideram que o primeiro herói da Geração de Prata foi o Protetor Prateado — um herói coberto em metal prateado, capaz de vôo mais rápido que jamais visto antes, quase invulnerável e tão forte quanto a Campeã, se não mais forte. Samuel Tolman era um matemático e físico trabalhando para a divisão de pesquisa da aeronáutica quando acidentalmente invocou a Faísca Prateada para sim com um motor experimental. Com seus poderes, se tornou o primeiro representativo de um novo tipo de super-humano: Protetor Prateado era brilhante, reluzente e _poderoso_.
+
+O Protetor Prateado não lidava com ladrões fantasiados. Invés disso, ele lutou o Doutor Infinito, o androide super poderoso que alterava o tempo; ele lutou contra o Jabberwocky, um monstro que saiu da ficção para converter toda a nossa realidade em palavras em uma página. As batalhas que ele lutou, enquanto ainda centradas na Cidade das Arirambas, eram frequentemente conflitos sobre o destino do mundo inteiro.
+
+Essas habilidades poderosas, impressionantes e explosivas e suas lutas ainda maiores caracterizaram essa geração — mas as Arirambas se tornaram cada vez mais adeptos a reparar os danos e voltar à normalidade com velocidade impressionante.
+
+Equipes eram mais importantes para a Geração de Prata que jamais foram para a Geração de Ouro. Ameaças enormes assim exigiam que os heróis procurassem ajuda um dos outros. Os Exemplares, os Salvadores Prateados, os Oito Incríveis — todos viram suas origens nessa geração. E assim como os heróis se juntaram, os vilões também formaram suas alianças. A Geração de Prata foi um ciclo constante de escalonamento, com ambos os lados crescendo em poder para batalhas cada vez mais épicas.
+
+Durante o começo de sua ascendência, a Geração de Prata fez grandes avanços em conflitos mundanos. Teve um grande esforço conjunto da Geração de Prata para direitos iguais para todas as cidades das Arirambas e do Brasil em geral. Alguns até tomaram papeis políticos, mas durante seu tempo no poder, a Geração de Prata começou a abandonar lutas contra problemas sociais, e até contra criminosos ou políticos corruptos.
+
+Sempre houveram exceções, mas em grande parte, conforme seus poderes cresceram, seu foco também cresceu, para ameaças cada vez maiores: destruidores de planetas, catástrofes multiversais, etc. Enquanto essas lutas eram importantes, os críticos da Geração de Prata focam nas lutas que eles deixaram de lado, nas mudanças que eles ficaram em silêncio.
+
+A Geração de Prata ainda está amplamente em poder hoje em dia. Porém, estão chegando no fim de seu tempo, e muito estão considerando algum tipo de aposentadoria. Eles lutaram por muito tempo para manter a cidade e o mundo seguros e agora querem seu descanso merecido, mas ... é difícil ver figuras que eram tão proeminentes e dominantes por tantos anos tranquilamente abandonando seu controle.
+
 ### A Geração de Bronze (anos 70 a anos 80)
 
+A maioria dos superologistas, historiadores e sociólogos concordam em um momento que definiu a transição da Geração de Prata para algo novo, mais complicado e ambíguo: A Geração de Bronze.
+
+Quintessência, um herói mais novo, estava sendo ameaçado pelo seu arqui-inimigo, um telepata conhecido como Psilêncio: Psilêncio atacou Quintessência em sua vida real, publicamente abduzindo e ameaçando o melhor amigo de Quintessência.
+
+Quintessência atacou Psilêncio diretamente e com raiva, e Psilêncio respondeu com uma felicidade cruel que verdadeiramente machucou seu inimigo. E quando Psilêncio jogou o garoto do topo do Prédio do Colosso no centro das Arirambas, Quintessência respondeu com medo e desespero, se jogando do lado do prédio em uma última tentativa de salvar seu amigo.
+
+Os médicos não podem dizer com confiança o que causou a morte do amigo: talvez Psilêncio tenha o matado antes de jogar do prédio, talvez a tentativa de Quintessência o salvar foi o que o matou. Independente, os fatos continuaram: uma pessoa morreu por ser amigo de um super-herói. Quintessência não conseguiu o salvar. Psilêncio mudou o jogo.
+
+As ondas tocaram a nova geração de heróis crescendo na cidade. A maior parte deles tinha claramente começado no estilo da Geração de Prata, mas aquela morte fatídica gerou uma onda de introspecção entre a nova geração, os forçando a tomar uma olhada mais crítica nas falhas de seus pais e mentores. Eles viram que os métodos da Geração de Prata nunca resolviam os problemas de verdade, e que pareciam mais interessados em gestos grandes e chamativos que mudança verdadeira.
+
+E também viram que a Geração de Prata ainda se prendiam ao poder, tendo suas posições de dominância na cidade e no mundo, e que essa geração não tinha muito espaço para chamar de seu.
+
+Os heróis mudaram suas identidades e ideias. Eles mudaram suas ligações à Geração de Prata, fazendo tudo no seu poder para se diferenciar e encontrar quaisquer lugares para chamarem de seus. Novos heróis surgiram, com novas ideias e métodos. Alguns, como o vigilante assassino Guilhotina, perseguiam violência incondicional contra criminosos. Outros, como o patriota Arara Azul, se tornaram figuras políticas, tentando mudar o sistema de dentro.
+
+A Geração de Bronze se definiu nas rachaduras deixas para ele pela Geração de Prata. E foram a primeira geração a verdadeiramente duvidar a ideia de super-heroísmo que existia até então. Eles abriram portas para explorar diferentes maneiras de ser super-heróis, mesmo que muitas dessas portas levavam a lugares escuros. Eles enfrentaram problemas sociais que seus pais e mentores haviam deixado de lado, e eles esculpiram seu próprio lugar como uma geração mais cínica, exploratória e sombria que as que vieram antes.
+
+A Geração de Bronze ainda está bem presente e ativa hoje. Apesar de membros da Geração de Prata ainda estarem em posições de poder sobre a maior parte da cidade e através da sociedade super-heroica, a Geração de Bronze encontrou seus próprios domínios e fontes de poder. Eles podem não estar não abertamente em controle como a Geração de Prata, mas os membros da Geração de Bronze ainda estão posicionados como pessoas importantes e estão prontos para tomar as rédeas conforme mais membros da Geração de Prata entram em obsolescência e aposentadoria.
+
 ### A Geração Moderna (anos 90 aos dias de hoje)
+
+A nova geração de super-heróis, a maioria deles ainda jovem, vem de um lugar único. Eles vivem em um mundo acostumado com a ideia de indivíduos super-humanos. Dinossauros pisoteando a Avenida Brasil é algo que acontece de vez em quando; aliens invadindo e produtos de ciência maluca escapando de um laboratório são vistos como algo entre problemas medianos e atrações turísticas. Conforme os últimos super-heróis chegam na cena, eles tem um controle mais forte e mais inato de problemas super-humanos que qualquer outra geração — mas isso nem sempre é uma boa coisa.
+
+Eles não tem um nome ainda — "Geração Moderna" é um tapa buraco, usado em paralelo com "Nova Geração" e "Geração Jovem", entre outras. Eles ainda não fizeram sua marca no mundo, nem desenvolveram uma identidade tão forte quanto os que vieram antes. A Cidade das Arirambas não sabe o que ela vai se tornar conforme eles crescem e chegam a poderes mais e mais fortes.
+
+Alguns membros da Geração Moderna já fizeram ondas — especialmente no mundo das celebridades e da Internet — como Cygnus, o pop star adolescente que virou vilão. Alguns se tornaram aprendizes de heróis mais velhos, criando seus nomes na cidade como herdeiros dos poderes principais, como o Ás Prateado, portador de parte da Faísca Prateada. A maioria está consciente da fama e popularidade, e das vozes de todos ao seu redor, mas que qualquer outra geração. E todos sentem os olhos das gerações mais antigas.
+
+Até então, eles se provaram como uma geração de mais esperança e ceticismo que qualquer outra geração. Eles estão conscientes de tantos os triunfos e falhas de todos que vieram antes deles, de um jeito que nenhuma outra geração foi. Eles vem a nobreza da Geração de Ouro e seus erros óbvios; o poder e sucesso da Geração de Prata, e suas atitudes arrogantes; a frustração e busca por alternativas da Geração de Bronze, e sua falha de mudar qualquer coisa significante.
+
+Toda essa história pesa neles, enquanto eles tentam determinar quem eles querem ser, e o que eles querem fazer. Talvez eles queiram mudar o mundo; talvez eles queiram desistir da luta e ir pra fama. Talvez eles achem que todo o sistema precisa ser mudado; talvez eles queiram trabalhar dentro das regras. Em todos os casos, ainda estão procurando seu lugar no mundo, decidindo exatamente o que querem ser, e que mundo eles vão fazer.
+
+O mundo espera com trepidação e excitação para ver o que eles vão se tornar.
 
 ## Ser Herói Hoje em Dia
 
