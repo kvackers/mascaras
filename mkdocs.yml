@@ -1,0 +1,5 @@
+site_name: Masks
+theme: readthedocs
+extra_css: ["style.css"]
+docs_dir: content
+site_dir: docs
