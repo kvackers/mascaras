@@ -88,7 +88,7 @@ Cada cartilha tem um conjunto de questões de história: uma série de perguntas
 
 Tente escrever algumas respostas para essas perguntas, para que você possa usar essa informação durante as introduções de personagens. Quando outros personagens aparecerem nessas perguntas, tente focar em NPCs e evite usar outros PCs para responder a pergunta.
 
-Quando estiver criando seu personagem, só preencha as sessões de "Relações", "Influência" e "Quando Nossa Equipe Se Juntou" com outros personagens.
+Quando estiver criando seu personagem, só preencha as sessões de "Relacionamentos", "Influência" e "Quando Nossa Equipe Se Juntou" com outros personagens.
 
 ## Escolhendo Ações
 
@@ -110,36 +110,40 @@ Cada cartilha tem suas próprias regras para quanto e quais cartilhas você pode
 
 ## Momento da Verdade
 
-You don’t have any decisions to make about your playbook’s Moment of Truth,
-but it’s good to familiarize yourself with it early. Your Moment of Truth
-is a script for a special instant when you get to seize control of the game’s
-conversation. Each playbook’s is a bit different, and gives you an idea for the
-kinds of thing you’re allowed to say when you trigger your Moment of Truth.
-You’re not mind-controlling anybody, so you probably can’t say what the other
-PCs or NPCs choose to do—but you can say largely everything else, including
-how you defeat them or how you change the world around you. It’s a moment
-when the spotlight’s on your character, and we’re all interested in seeing them
-be awesome—which means you get to say what happens in a much more direct
-fashion than at any other time in the game.
+O **Momento da Verdade** é um script para um instante especial quando você controla a conversa do jogo. Cada classe tem um momento de verdade diferente, mas te dá uma ideia dos tipos de coisas que você pode fazer quando você ativa o seu Momento da Verdade.
 
-You can’t trigger your Moment of Truth until you’ve unlocked it
-through advancement (page 115). Then, you can trigger it whenever you
-want, and during that scene you have full control of describing
-what your character does, for as long as you remain within
-your playbook’s script. After your Moment of Truth is over,
-you permanently lock one of your Labels—it will never
-change again (page 118).
+Você não vai controlar a mente de ninguém, então você provavelmente não pode dizer o que outros PCs ou NPCs escolhem fazer — mas você pode ditar praticamente todo o resto, inclusive como você derrota um inimigo ou muda o mundo ao seu redor. É um momento onde o holofote está no seu personagem, e você pode dizer o que acontece de um jeito muito mais direto que em qualquer outro momento do jogo.
 
-Your Moment of Truth tells you a lot about the key,
-critical moment for your playbook—what it looks
-like when everything comes to a head, and your
-character shows off the fullest extent of what
-they can do.
+Você só pode ativar o Momento de Verdade depois de você destravar ele, mas depois de destravado, pode ativar quando quiser, e durante essa cena você tem o controle total de descrever o que seu personagem faz, contanto que você fique dentro dos confins do script da classe. Depois que seu Momento da Verdade acabar, você permanentemente tranca uma de suas Etiquetas — ela nunca mais vai mudar.
 
 ## Ações de Equipe
 
+Cada personagem tem duas ações de equipe, uma que é ativada quando ele compartilha uma celebração triunfante com alguém, e uma que é ativada quando eles compartilham uma fraqueza ou vulnerabilidade com alguém.
+
 ## Introduções
+
+Depois que todos terminarem de preencher suas cartilhas (tudo exceto "Relacionamentos", "Influência" e "Quando Nossa Equipe Se Juntou"), os jogadores que estão criando personagens devem fazer as introduções dos personagens.
+
+Um por vez, cada jogador toma alguns minutos para compartilhar seu nome, sua aparência, suas habilidades, a resposta de suas questões de história e qualquer outra coisa importante que os outros jogadores devem saber sobre ele. Durante esse tempo, os outros jogadores e o mestre podem e devem perguntar mais coisas sobre o personagem para terem uma ideia melhor de quem o personagem é.
+
+## "Quando Nossa Equipe Se Juntou"
+
+Depois das introduções, determinem qual foi o incidente que fez os personagens se juntarem. Deve ser algo grande, algo que nenhum personagem poderia ter resolvido sozinho e que os forjou no grupo maior que a soma das partes. Quando o jogo começar, vai ser um tempo depois que essa história aconteceu — a equipe já está junta a um tempo, esse processo é só pra garantir que todos sabem como começou.
+
+Cada cartilha tem sua própria questão e declaração. Um por um, cada personagem lê a sua questão alto para que todos saibam quais questões estão na mesa. Então, o mestre lidera o grupo em uma discussão sobre essas questões e suas respostas, preenchendo os detalhes do que aconteceu. **Cada jogador tem controle total das respostas da questão de sua cartilha**, mas podem pedir o input de outros jogadores caso queiram.
+
+O grupo como um todo e o mestre devem fazer perguntas adicionais conforme necessário para preencher os detalhes do incidente até que todos tenham uma ideia clara do que aconteceu e quem estava envolvido.
 
 ## Relacionamentos
 
+Tendo os detalhes do incidente que juntou a equipe, preencha os relacionamentos de cada personagem com os outros. Cada cartilha tem 2 relacionamentos nele: frases com espaços em branco. Um por vez, cada jogador lê uma frase de sua cartilha e a preenche com o nome de um membro da equipe. Isso define um relacionamento inicial entre os dois personagens.
+
+Sinta-se a vontade para discutir esses relacionamentos conforme o jogo progride. Cada jogador tem controle total sobre qual nome eles põem no espaço em branco, mas devem se sentir a vontade para pedir sugestões e ideias.
+
 ## Influência
+
+Finalmente, cada personagem dá Influência a seus colegas de equipe. **Influência** é um recurso binário — ou alguém tem sobre você, ou não. Se alguém tem Influência sobre você, você se importa sobre o que ela faz, diz ou acha sobre você. Também quer dizer que as palavras dela tem peso com você e podem mudar como você se vê. Por padrão, em Máscaras, todos os adultos tem influência sobre PCs.
+
+Cada cartilha tem uma seção que descreve quanta Influência o jogador deve dar aos colegas. Às vezes, você tem que fazer uma escolha sobre seu comportamento inicial, como os outros te vem no começo — outras vezes só te diz quantos personagens você dá Influência.
+
+Você sempre pode dar mais Influência se você quiser — se você acha que seu personagem se importa com as palavras de alguém, você deve dar Influência sobre você se eles já não a tem — mas você tem que dar no mínimo quanto a cartilha fala. Influência varia conforme o jogo progride, então não se preocupe muito com isso.
