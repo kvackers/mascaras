@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ficha.css">
+    
+    <title>Ficha</title>
+</head>
+<body>
+    <h1>supernova</h1>
+    <span id="names">
+    <input type="text" placeholder="Nome de Herói" id="heroname">
+    <input type="text" placeholder="Nome Real" id="realname">
+    </span>
+
+    <h2>Aparência</h2>
+    <p>Clique no elemento que se aplica:</p>
+    <ul id="looks"><li><span class="choosey">andrógino</span>, <span class="choosey">fluido</span>, <span class="choosey">trans</span>, <span class="choosey">mulher</span>, <span class="choosey">homem</span></li><li><span class="choosey">asiático</span>, <span class="choosey">negro</span>, <span class="choosey">latino</span>, <span class="choosey">indígena</span>, <span class="choosey">oriente médio</span>, <span class="choosey">branco</span></li><li><span class="choosey">pele brilhante</span>, <span class="choosey">pele inorgânica</span>, <span class="choosey">pele marcada</span>, <span class="choosey">pele normal</span></li><li><span class="choosey">roupas fashion</span>, <span class="choosey">roupas casuais</span>, <span class="choosey">roupas formais</span>, <span class="choosey">roupas sombrias</span></li><li><span class="choosey">traje colorido</span>, <span class="choosey">traje uniforme</span>, <span class="choosey">traje mitológico</span>, <span class="choosey">traje fantástico</span>, <span class="choosey">sem traje</span></li></ul>
+
+    <h2>Habilidades</h2>
+    <p>Você pode controlar fundamentalmente o mundo ao seu redor. Escolha uma opção da lista como base ampla do seu controle.</p>
+    <ul id="skills"><li><input type="checkbox">telecinese e telepatia</li><li><input type="checkbox">magia e feitiçaria</li><li><input type="checkbox">biocinese</li><li><input type="checkbox">controle elemental</li><li><input type="checkbox">manipulação de gravidade</li><li><input type="checkbox">energias cósmicas</li></ul>
+
+    <h2>Etiquetas</h2>
+    <p>Na criação de personagens, escolha uma das etiquetas para aumentar em 1.</p>
+    <p>Esquisito <input type="number" min="-2" max="3" value="2" id="freak"></p>
+    <p>Perigo <input type="number" min="-2" max="3" value="1" id="danger"></p>
+    <p>Salvador <input type="number" min="-2" max="3" value="0" id="savior"></p>
+    <p>Superior <input type="number" min="-2" max="3" value="0" id="superior"></p>
+    <p>Mundano <input type="number" min="-2" max="3" value="-1" id="mundano"></p>
+
+    <h2>Condições</h2>
+    <p><input type="checkbox" id="afraid"> Medo (-2 para diretamente engajar)</p>
+    <p><input type="checkbox" id="anger"> Raiva (-2 para confortar ou apoiar alguém)</p>
+    <p><input type="checkbox" id="guilt"> Culpa (-2 para provocar alguém ou avaliar a situação)</p>
+    <p><input type="checkbox" id="insecure"> Insegurança (-2 para defender ou rejeitar o que dizem)</p>
+    <p><input type="checkbox" id="hopeless"> Desespero (-2 para soltar seus poderes)</p>
+
+    <h2>Backstory</h2>
+    <ul><li>Quando você usou seus poderes pela primeira vez?</li><li>Quem foi a primeira pessoa que você acidentalmente machucou com seus poderes?</li><li>Quem, fora da equipe, te ajuda a controlar seus poderes?</li><li>Por que você continua usando seus poderes?</li><li>Porque você se importa com a equipe?</li></ul>
+    <textarea id="backstory" placeholder="Escreva a sua backstory aqui."></textarea>
+
+    <h2>Quando nosso time se conheceu ...</h2>
+    <p>Destruímos nossos arredores na luta. Onde foi? O que destruímos?</p>
+    <textarea id="description" placeholder="Descreva o evento onde vocês se conheceram aqui."></textarea>
+
+    <h2>Relacionamentos</h2>
+    <p>Você sai o tempo todo com <input type="text" id="rel1"> para desabafar.</p>
+    <p>Uma vez você machucou <input type="text" id="rel2"> quando você perdeu o controle de seus poderes</p>
+
+    <h2>Influência</h2>
+    <p>Escolha o seu comportamento: fachada feliz ou fechado.<br><br>Se você escolher a fachada feliz, dê Influência a três companheiros de equipe.<br>Se você escolher fechado, dê Influência a um companheiro de equipe.</p>
+    <textarea id="influence" placeholder="Escreva os nomes de quem tem influência sobre você aqui."></textarea>
+
+    <h2>Ações de supernova</h2>
+    <p><strong>Queimar</strong><br> Ao carregar seus poderes, role + condições que você têm atualmente. Com um acerto, ganhe 3 queimaduras. Com 7-9, marque uma condição. Se falhar, ganhe 2 queimaduras e marque três condições.<br>Gaste suas queimaduras em suas chamas. Você perde todas as queimaduras no final da cena.<br>Escolha quatro chamas</p>
+    <ul id="class-moves"><li><input type="checkbox"><strong>Tempestade de realidade</strong>: Você canaliza uma explosão destrutiva com seus poderes. Gaste 1 queimadura para enfrentar diretamente uma ameaça usando seus poderes, rolando + Estranho em vez de + Perigo. Se o fizer, causará danos colaterais indesejados, a menos que gaste outra queimadura.</li><li><input type="checkbox"><strong>Defender</strong>: Você invoca um campo de proteção rápido para parar um perigo. Gaste 1 queimadura para defender alguém de uma ameaça imediata, rolando + Estranho em vez de + Salvador. </li><li><input type="checkbox"><strong>Construtos</strong>: Gaste 1 queimadura para criar qualquer objeto com seus poderes, até o tamanho de um pessoa. Gaste uma queimadura adicional para animar o construto independentemente de você. A construção se dissolve no final da cena.</li><li><input type="checkbox"><strong>Fosso</strong>: Gaste 1 queimadura para criar uma barreira que irá conter as ameaças, desde que você mantenha sua atenção nela. O Mestre pode pedir que você gaste outra queimadura se a barreira estiver ameaçada por inimigos particularmente poderosos.</li><li><input type="checkbox"><strong>Adoração</strong>: Você faz uma tremenda demonstração de seu poder. Gaste 1 queimadura para impressionar o público em silêncio, respeito e atenção quando você libera seus poderes.</li><li><input type="checkbox"><strong>Mover</strong>: Gaste 1 queimadura para se mover para qualquer lugar que você escolher dentro da cena, rompendo ou escapando de quaisquer barreiras ou restrições em seu caminho. Gaste uma segunda queimadura para ir para qualquer lugar onde você já esteve.</li><li><input type="checkbox"><strong>Foirtalecer</strong>: Gaste 1 queimadura para turbinar os esforços de um companheiro de equipe com seus poderes, dando-lhes um bônus de +1 em suas jogadas, como se você tivesse gasto a reserva do Time.</li><li><input type="checkbox"><strong>Sobrecarregar</strong>: Você canaliza toda a capacidade de seus incríveis poderes para superar um obstáculo, remodelar seu ambiente ou ampliar seus sentidos. Gaste 2 queimaduras para receber 10+ ao liberar seus poderes.</li><li><input type="checkbox"><strong>Consciência Elemental</strong>: Gaste 1 queimadura e marque uma condição para abrir sua mente para o mundo ao seu redor com seus poderes. Você pode fazer qualquer pergunta sobre o mundo ao seu redor e o Mestre responderá honestamente.</li><li><input type="checkbox"><strong>Agarrar</strong>: Gaste 1 queimadura para usar seus poderes para capturar qualquer objeto com até o tamanho de uma pessoa, de alguém que esteja à vista.</li></ul>
+
+    <h2 id="extra-header"></h2>
+    <p></p>
+    <ul id="extras"></ul>
+
+    <h2>Momento da Verdade</h2>
+    <p>Os olhos da sua mente se abrem e você pode ver o mundo ao seu redor como nunca antes. Você pode controlá-lo à vontade, com facilidade. É claro que distorcer a realidade tende a ter ramificações no futuro, mas em seu momento de divindade... como você poderia estar preocupado?</p>
+
+    <h2>Ações de Equipe</h2>
+    <p>Quando fazer uma celebração triunfante com alguém, Ao compartilhar uma celebração triunfante com alguém, pergunte se há algum medo em seus olhos quando olha para você. Se ele(a) disser não, receba +1 adiante e marque o potencial. Se ele(a) disser sim, imediatamente mude seu Perigo para cima e seu Salvador para baixo.</p>
+    <p>Quando compartilhar uma vulnerabilidade ou fraqueza com alguém, Quando você compartilhar uma vulnerabilidade ou fraqueza com alguém, diga como ele poderia impedi-lo, se for necessário. Dê-lhe influência sobre você e elimine uma condição.</p>
+
+    <h2 class="pbottom">Potencial</h2>
+    <p>Cada vez que falhar em uma ação, marque potencial.</p>
+    <ul id="potential">
+        <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox">
+    </ul>
+
+    <h2>Avanços</h2>
+    <p>Quando preencher seus pontos de potencial, escolha da lista a seguir:</p>
+    <ul id="advancement1"><li><input type="checkbox">Escolha uma ação de outra classe</li><li><input type="checkbox">Escolha uma ação de outra classe</li><li><input type="checkbox">Alguém perde permanentemente a Influência sobre você, adiciohe +1 a uma etiqueta a sua escolha</li><li><input type="checkbox">Reorganize suas etiquetas como quiser e adicione +1 a uma etiqueta</li><li><input type="checkbox">Destrave seu Momento da Verdade</li><li><input type="checkbox">Desbloqueie três novas chamas</li><li><input type="checkbox">Desbloqueie três novas chamas</li><li><input type="checkbox">Receba o Coração do Touro da classe Touro</li><li><input type="checkbox">Destrave seu Momento da Verdade</li></ul>
+
+    <p>Depois de escolher cinco itens da lista acima, você pode escolher avanços da lista abaixo.</p>
+    <ul id="advancement2"><li><input type="checkbox">Destrave seu segundo Momento da Verdade</li><li><input type="checkbox">Troque de Classe</li><li><input type="checkbox">Escolha uma Ação de Adulto</li><li><input type="checkbox">Escolha uma Ação de Adulto</li><li><input type="checkbox">Congele uma etiqueta e adicione +1 a uma etiqueta a sua escolha</li><li><input type="checkbox">Se aposente ou vire um exemplo da cidade</li></ul>
+
+    <h2>Outras Ações</h2>
+    <textarea id="other-moves" placeholder="Descreva ações de outras classes aqui"></textarea>
+
+    <h2>Anotações</h2>
+    <textarea id="notes"></textarea>
+
+    <script>
+        document.querySelectorAll(".choosey").forEach(node => {
+            node.onclick = () => node.classList.toggle("chosen");
+        });
+
+        const extraHeader = document.getElementById('extra-header');
+        if (extraHeader.innerHTML == "") {
+            extraHeader.classList.add("dnone");
+        }
+    </script>
+</body>
+</html>

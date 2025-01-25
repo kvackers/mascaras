@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ficha.css">
+    
+    <title>Ficha</title>
+</head>
+<body>
+    <h1>touro</h1>
+    <span id="names">
+    <input type="text" placeholder="Nome de Herói" id="heroname">
+    <input type="text" placeholder="Nome Real" id="realname">
+    </span>
+
+    <h2>Aparência</h2>
+    <p>Clique no elemento que se aplica:</p>
+    <ul id="looks"><li><span class="choosey">andrógino</span>, <span class="choosey">fluido</span>, <span class="choosey">trans</span>, <span class="choosey">mulher</span>, <span class="choosey">homem</span></li><li><span class="choosey">asiático</span>, <span class="choosey">negro</span>, <span class="choosey">latino</span>, <span class="choosey">indígena</span>, <span class="choosey">oriente médio</span>, <span class="choosey">branco</span></li><li><span class="choosey">mãos com calos</span>, <span class="choosey">mãos sujas</span>, <span class="choosey">mãos não humanas</span>, <span class="choosey">mãos machucadas</span></li><li><span class="choosey">roupas largas</span>, <span class="choosey">roupas rasgadas</span>, <span class="choosey">roupas sujas</span>, <span class="choosey">roupas casuais</span></li><li><span class="choosey">traje simples</span>, <span class="choosey">traje memorável</span>, <span class="choosey">traje exagerada</span>, <span class="choosey">sem traje</span></li></ul>
+
+    <h2>Habilidades</h2>
+    <p>Algo ou alguém te mudou, te fez virar uma arma perfeita: resistência super-humana, força incrível e habilidade única para lutar. Decida como cada uma dessas habilidades se manifesta.</p>
+    <ul id="skills"></ul>
+
+    <h2>Etiquetas</h2>
+    <p>Na criação de personagens, escolha uma das etiquetas para aumentar em 1.</p>
+    <p>Esquisito <input type="number" min="-2" max="3" value="1" id="freak"></p>
+    <p>Perigo <input type="number" min="-2" max="3" value="2" id="danger"></p>
+    <p>Salvador <input type="number" min="-2" max="3" value="-1" id="savior"></p>
+    <p>Superior <input type="number" min="-2" max="3" value="1" id="superior"></p>
+    <p>Mundano <input type="number" min="-2" max="3" value="-1" id="mundano"></p>
+
+    <h2>Condições</h2>
+    <p><input type="checkbox" id="afraid"> Medo (-2 para diretamente engajar)</p>
+    <p><input type="checkbox" id="anger"> Raiva (-2 para confortar ou apoiar alguém)</p>
+    <p><input type="checkbox" id="guilt"> Culpa (-2 para provocar alguém ou avaliar a situação)</p>
+    <p><input type="checkbox" id="insecure"> Insegurança (-2 para defender ou rejeitar o que dizem)</p>
+    <p><input type="checkbox" id="hopeless"> Desespero (-2 para soltar seus poderes)</p>
+
+    <h2>Backstory</h2>
+    <ul><li>Quem te mudou?</li><li>Como você fugiu?</li><li>Quem, fora da equipe, tenta te ajudar?</li><li>Porque você tenta ser um herói?</li><li>Porque você se importa com a equipe?</li></ul>
+    <textarea id="backstory" placeholder="Escreva a sua backstory aqui."></textarea>
+
+    <h2>Quando nosso time se conheceu ...</h2>
+    <p>Derrotamos um inimigo poderoso. Quem ou o quê era?</p>
+    <textarea id="description" placeholder="Descreva o evento onde vocês se conheceram aqui."></textarea>
+
+    <h2>Relacionamentos</h2>
+    <p> <input type="text" id="rel1"> é o seu amor, para quem você se abriu e contou sobre as piores partes do seu passado.</p>
+    <p> <input type="text" id="rel2"> é o seu rival, que tentou te controlar em um momento crucial.</p>
+
+    <h2>Influência</h2>
+    <p>Você é bem seletivo sobre para quem você se abre. Dê influência para o seu amor e seu rival, mas só eles.</p>
+    <textarea id="influence" placeholder="Escreva os nomes de quem tem influência sobre você aqui."></textarea>
+
+    <h2>Ações de touro</h2>
+    <p>Escolha dois.</p>
+    <ul id="class-moves"><li><input type="checkbox"><strong>Pistola</strong>: Sempre que tiver Raiva marcada, tome +1 em diante para soltar seus poderes</li><li><input type="checkbox"><strong>Cabeça pra quê?</strong>: Quando você provoca alguém com ameaças óbvias ou mostras de força, role <strong>+ Perigo</strong> invés do rótulo normal.</li><li><input type="checkbox"><strong>Socar todo mundo</strong>: Sempre que entrar na briga sem algum backup, você pode aumentar seu Perigo e diminuir qualquer outro rótulo.</li><li><input type="checkbox"><strong>Lá quando importa</strong>: Quando defender alguém, em sucesso você pode guardar 1 invés de escolher da lista. Gaste os pontos quando eles estiverem em perigo mais tarde para chegar na cena para ajudar.</li><li><input type="checkbox"><strong>Barbie Dano Colateral</strong>: Quando engajar com uma ameaça, você sempre pode causar dano colateral significativo para escolher uma opção extra, mesmo se falhar.</li><li><input type="checkbox"><strong>Física, que física?</strong>: Quando soltar seus poderes para quebrar uma barreira inquebrável, role <strong>+ Perigo</strong> invés do rótulo normal.</li></ul>
+
+    <h2 id="extra-header">O coração do touro</h2>
+    <p>Você sempre tem exatamente um amor e um rival. Você pode mudar seu amor ou rival a qualquer hora, mas seja quem for, sempre vai ter Influência sobre você. Tome +1 em diante para qualquer ação que impressione seu amor ou frustre seu rival. Escolha um papel que você comumente preenche para seu amor ou rival:</p>
+    <ul id="extras"><li><input type="checkbox"><strong>Defensor</strong>: Quando vai defender seu amor ou rival em batalha, role <strong>+ Perigo</strong> invés do rótulo normal para os defender.</li><li><input type="checkbox"><strong>Amigo</strong>: Quando confortar ou apoiar seu amor ou rival, marque potencial em um sucesso. Quando eles te confortam ou apoiam, marque potencial se eles tiverem sucesso.</li><li><input type="checkbox"><strong>Ouvinte</strong>: Quando perfura a máscara do amor ou rival, você sempre pode fazer uma pergunta adicional, mesmo em falha.</li><li><input type="checkbox"><strong>Irritante</strong>: Quando provocar seu amor ou rival, role <strong>+ Perigo</strong> se estiver tentando os provocar a fazer algo mal pensado.</li></ul>
+
+    <h2>Momento da Verdade</h2>
+    <p>Isso é o que você faz de melhor. Você solta toda sua raiva acumulada e você quebra tudo que estiver no seu caminho. Você é um demolidor ambulante. Quem pode te parar? Nada. Nem prédios, nem inimigos, nada. Claro, agora quem te mudou sabe exatamente onde te encontrar ...</p>
+
+    <h2>Ações de Equipe</h2>
+    <p>Quando fazer uma celebração triunfante com alguém, faça eles serem seu amor ou rival e marque potencial. Se já são seu amor ou rival, toma influência sobre eles e marque potencial.</p>
+    <p>Quando compartilhar uma vulnerabilidade ou fraqueza com alguém, dê influência a eles e guarde 2. Gaste os pontos guardados para ajudar eles como se fosse pontos de Equipe.</p>
+
+    <h2 class="pbottom">Potencial</h2>
+    <p>Cada vez que falhar em uma ação, marque potencial.</p>
+    <ul id="potential">
+        <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox">
+    </ul>
+
+    <h2>Avanços</h2>
+    <p>Quando preencher seus pontos de potencial, escolha da lista a seguir:</p>
+    <ul id="advancement1"><li><input type="checkbox">Escolha outra ação de sua classe</li><li><input type="checkbox">Escolha outra ação de sua classe</li><li><input type="checkbox">Escolha uma ação de outra classe</li><li><input type="checkbox">Escolha uma ação de outra classe</li><li><input type="checkbox">Escolha dois outros papéis para o Coração do Touro</li><li><input type="checkbox">Alguém permanentemente perde Influência sobre você</li><li><input type="checkbox">Adicione +1 a um rótulo</li><li><input type="checkbox">Reorganize seus rótulos como quiser e adicione +1 a um rótulo</li><li><input type="checkbox">Destrave seu Momento de Verdade</li></ul>
+
+    <p>Depois de escolher cinco itens da lista acima, você pode escolher avanços da lista abaixo.</p>
+    <ul id="advancement2"><li><input type="checkbox">Destrave seu segundo Momento de Verdade</li><li><input type="checkbox">Mude de classe</li><li><input type="checkbox">Escolha uma Ação de Adulto</li><li><input type="checkbox">Escolha uma Ação de Adulto</li><li><input type="checkbox">Congele um rótulo e adicione +1 a um rótulo a sua escolha</li><li><input type="checkbox">Se aposente ou vire um exemplo da cidade</li></ul>
+
+    <h2>Outras Ações</h2>
+    <textarea id="other-moves" placeholder="Descreva ações de outras classes aqui"></textarea>
+
+    <h2>Anotações</h2>
+    <textarea id="notes"></textarea>
+
+    <script>
+        document.querySelectorAll(".choosey").forEach(node => {
+            node.onclick = () => node.classList.toggle("chosen");
+        });
+
+        const extraHeader = document.getElementById('extra-header');
+        if (extraHeader.innerHTML == "") {
+            extraHeader.classList.add("dnone");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ficha.css">
+    
+    <title>Ficha</title>
+</head>
+<body>
+    <h1>jano</h1>
+    <span id="names">
+    <input type="text" placeholder="Nome de Herói" id="heroname">
+    <input type="text" placeholder="Nome Real" id="realname">
+    </span>
+
+    <h2>Aparência</h2>
+    <p>Clique no elemento que se aplica:</p>
+    <ul id="looks"><li><span class="choosey">andrógino</span>, <span class="choosey">fluido</span>, <span class="choosey">trans</span>, <span class="choosey">mulher</span>, <span class="choosey">homem</span></li><li><span class="choosey">asiático</span>, <span class="choosey">negro</span>, <span class="choosey">latino</span>, <span class="choosey">indígena</span>, <span class="choosey">oriente médio</span>, <span class="choosey">branco</span></li><li><span class="choosey">roupas sem graça</span>, <span class="choosey">roupas elegantes</span>, <span class="choosey">roupas formais</span>, <span class="choosey">roupas de luxo</span></li><li><span class="choosey">traje icônico</span>, <span class="choosey">traje discreto</span>, <span class="choosey">traje devaneador</span>, <span class="choosey">traje chamativo</span></li><li><span class="choosey">máscara inexpressiva</span>, <span class="choosey">capacete</span>, <span class="choosey">máscara de personagem</span>, <span class="choosey">máscara pequena</span>, <span class="choosey">capuz</span>, <span class="choosey">disfarce completo</span></li></ul>
+
+    <h2>Habilidades</h2>
+    <p>Sua aparência permanece inalterada por suas habilidades, e você pode manter sua poderes ocultos. Você tem habilidades físicas aprimoradas (força, agilidade, resistência) e escolha duas habilidades únicas</p>
+    <ul id="skills"><li><input type="checkbox">controlar roedores ou insetos</li><li><input type="checkbox">veneno, teias ou gerar ossos</li><li><input type="checkbox">absorção de energia</li><li><input type="checkbox">sentidos sobrenaturais</li><li><input type="checkbox">mobilidade impossível</li><li><input type="checkbox">mimetismo de substâncias</li></ul>
+
+    <h2>Etiquetas</h2>
+    <p>Na criação de personagens, escolha uma das etiquetas para aumentar em 1.</p>
+    <p>Esquisito <input type="number" min="-2" max="3" value="-1" id="freak"></p>
+    <p>Perigo <input type="number" min="-2" max="3" value="0" id="danger"></p>
+    <p>Salvador <input type="number" min="-2" max="3" value="0" id="savior"></p>
+    <p>Superior <input type="number" min="-2" max="3" value="0" id="superior"></p>
+    <p>Mundano <input type="number" min="-2" max="3" value="3" id="mundano"></p>
+
+    <h2>Condições</h2>
+    <p><input type="checkbox" id="afraid"> Medo (-2 para diretamente engajar)</p>
+    <p><input type="checkbox" id="anger"> Raiva (-2 para confortar ou apoiar alguém)</p>
+    <p><input type="checkbox" id="guilt"> Culpa (-2 para provocar alguém ou avaliar a situação)</p>
+    <p><input type="checkbox" id="insecure"> Insegurança (-2 para defender ou rejeitar o que dizem)</p>
+    <p><input type="checkbox" id="hopeless"> Desespero (-2 para soltar seus poderes)</p>
+
+    <h2>Backstory</h2>
+    <ul><li>Quando você pôs a máscara pela primeira vez? Por que?</li><li>Porque você mantém sua identidade secreta?</li><li>Quem, fora da equipe, sabe da sua vida dupla?</li><li>Quem pensa o pior da sua identidade mascarada?</li><li>Porque você se importa com a equipe?</li></ul>
+    <textarea id="backstory" placeholder="Escreva a sua backstory aqui."></textarea>
+
+    <h2>Quando nosso time se conheceu ...</h2>
+    <p>Salvamos a vida de alguém importante, seja para a cidade ou para nós. Quem foi? Por que ele(a) é importante?</p>
+    <textarea id="description" placeholder="Descreva o evento onde vocês se conheceram aqui."></textarea>
+
+    <h2>Relacionamentos</h2>
+    <p>  <input type="text" id="rel1"> te conhecia primeiro na sua vida civil.</p>
+    <p>Você se recusou a contar sua identidade secreta para  <input type="text" id="rel2"> quando te perguntou</p>
+
+    <h2>Influência</h2>
+    <p>Você admira seus companheiros de equipe; eles parecem bem resolvidos com essa coisa de super herói. Dê Influência a dois deles.</p>
+    <textarea id="influence" placeholder="Escreva os nomes de quem tem influência sobre você aqui."></textarea>
+
+    <h2>Ações de jano</h2>
+    <p>Você começa com "A Máscara" e outros dois de sua escolha.</p>
+    <ul id="class-moves"><li><input type="checkbox"><strong>A Máscara</strong>: Você veste a máscara e esconde sua verdadeira identidade. Escolha qual rótulo você tenta incorporar ao vestir sua máscara:<ul><li class="choosey">Esquisito</li><li class="choosey">Perigo</li><li class="choosey">Salvador</li><li class="choosey">Superior</li></ul><br/>Uma vez por sessão, você pode afirmar sua identidade heroica ou secreta para trocar seu Mundano pelo rótulo da sua Máscara.<br/><br/>Quando revela sua identidade secreta para alguém pela primeira vez, marque um potencial</li><li><input type="checkbox"><strong>Face do jogo</strong>: Quando você se compromete a salvar alguém ou derrotar um inimigo terrível, marque uma condição e receba +1 em diante para todos os testes que diretamente tentam resolver esse objetivo. No final de qualquer cena em que você não progrida em direção a esse objetivo, marque uma condição. Quando cumprir seu objetivo, marque potencial.</li><li><input type="checkbox"><strong>Eu sou o que está vendo</strong>: Quando você passa um tempo conversando com alguém sobre sua identidade, você pode perguntar qual rótulo querem impor a você; o jogador vai responder honestamente. Se você aceitar o que for dito, receba +1 no rótulo e marque Potencial ou elimine uma condição.</li><li><input type="checkbox"><strong>Moderado</strong>: Quando você tentar usar sua identidade civil para despistar, enganar ou passar despercebido por alguém, role <strong>+ Mundano</strong>. Em um sucesso, eles compram sua fachada. Se não for um sucesso completo, escolha um:<ul><li>Você continua sendo observado</li><li>Você deixa algo incriminador para trás</li><li>Você é forçado a se ridicularizar para manter a fachada</li></ul><br/>Em falha, uma de suas obrigações civis aparece.</li><li><input type="checkbox"><strong>Vou te salvar!</strong>: Você está disposto a pagar custos mais altos para manter seus entes queridos seguros. Revele sua identidade secreta para alguém que esteja assistindo ou marque uma condição para defender um ente querido como se você tivesse obtido um 12+.</li><li><input type="checkbox"><strong>Teia perigosa</strong>: Quando você revelar uma armadilha que deixou para alguém usando seus poderes, role <strong>+ Máscara</strong>. Em sucesso, seu oponente tropeça e você tem uma abertura ou oportunidade contra ele. Se sucesso completo, receba +1 para persegui-lo. Em falha, a armadilha escalona a situação para algo perigoso.</li></ul>
+
+    <h2 id="extra-header">Identidade Secreta</h2>
+    <p>Sua vida civil vem com uma série de obrigações. Com a passagem do tempo, role <strong>+ Mundano</strong> para ver como você está gerenciando suas obrigações. Em sucesso total, as coisas vão muito bem – você tem uma oportunidade ou vantagem graças a uma de suas obrigações.<br/><br/>Em sucesso não completo, você descumpriu uma obrigação, da sua escolha.<br /><br/>Em falha, você não deu a atenção que sua vida civil precisava; o GM escolhe duas obrigações que vão te atrapalhar.<br /><br/>Escolha três obrigações:</p>
+    <ul id="extras"><li><input type="checkbox">Trabalho: Barista, estagiário, recepcionista, entregador, trabalhador de fast-food, babá, lava-louças, etc.</li><li><input type="checkbox">Escola: Trabalhos escolares, equipe atlética, clube de xadrez, clube de fotografia, grêmio estudantil, etc.</li><li><input type="checkbox">Casa: Cuidar de alguém, tarefas domésticas, pagar contas, barriga de aluguel, etc.</li><li><input type="checkbox">Social: companheiro(a), melhor amigo, popularidade, parente próximo, treinador, professor</li></ul>
+
+    <h2>Momento da Verdade</h2>
+    <p>A máscara é uma mentira, e uma parte de você sempre soube disso. Não importa se outros podem ver. Você é aquele que pode fazer o impossível. Tire a máscara. Vista o traje. E você vai salvar o maldito dia. Claro, é melhor torcer para que ninguém desagradável te notar…</p>
+
+    <h2>Ações de Equipe</h2>
+    <p>Quando fazer uma celebração triunfante com alguém, pergunte se você é visto como a pessoa que usa a máscara ou a pessoa que está por baixo dela. No primeiro caso, marque Potencial e elimine uma condição. Neste último caso, tome Influência se você se revelar.</p>
+    <p>Quando compartilhar uma vulnerabilidade ou fraqueza com alguém, conte-lhe um segredo sobre quem você realmente é. Dê Influência, aumente <strong>Mundano</strong> e diminua <strong>Máscara</strong>.</p>
+
+    <h2 class="pbottom">Potencial</h2>
+    <p>Cada vez que falhar em uma ação, marque potencial.</p>
+    <ul id="potential">
+        <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox">
+    </ul>
+
+    <h2>Avanços</h2>
+    <p>Quando preencher seus pontos de potencial, escolha da lista a seguir:</p>
+    <ul id="advancement1"><li><input type="checkbox">Escolha outra ação de sua classe</li><li><input type="checkbox">Escolha outra ação de sua classe</li><li><input type="checkbox">Escolha uma ação de outra classe</li><li><input type="checkbox">Escolha uma ação de outra classe</li><li><input type="checkbox">Alguém perde permanentemente a Influência sobre você e adicione +1 a um rótulo a sua escolha</li><li><input type="checkbox">Mude o rótulo da sua Máscara e adicione +1 ao novo rótulo</li><li><input type="checkbox">Destrave seu Momento da Verdade</li><li><input type="checkbox">Ganhe as "Motivações" da classe "Farol"</li></ul>
+
+    <p>Depois de escolher cinco itens da lista acima, você pode escolher avanços da lista abaixo.</p>
+    <ul id="advancement2"><li><input type="checkbox">Destrave seu segundo Momento da Verdade</li><li><input type="checkbox">Troque de Classe</li><li><input type="checkbox">Escolha uma Ação de Adulto</li><li><input type="checkbox">Escolha uma Ação de Adulto</li><li><input type="checkbox">Congele um rótulo e adicione +1 a um rótulo a sua escolha</li><li><input type="checkbox">Se aposente ou vire um exemplo da cidade</li></ul>
+
+    <h2>Outras Ações</h2>
+    <textarea id="other-moves" placeholder="Descreva ações de outras classes aqui"></textarea>
+
+    <h2>Anotações</h2>
+    <textarea id="notes"></textarea>
+
+    <script>
+        document.querySelectorAll(".choosey").forEach(node => {
+            node.onclick = () => node.classList.toggle("chosen");
+        });
+
+        const extraHeader = document.getElementById('extra-header');
+        if (extraHeader.innerHTML == "") {
+            extraHeader.classList.add("dnone");
+        }
+    </script>
+</body>
+</html>

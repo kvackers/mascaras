@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ficha.css">
+    
+    <title>Ficha</title>
+</head>
+<body>
+    <h1>legado</h1>
+    <span id="names">
+    <input type="text" placeholder="Nome de Herói" id="heroname">
+    <input type="text" placeholder="Nome Real" id="realname">
+    </span>
+
+    <h2>Aparência</h2>
+    <p>Clique no elemento que se aplica:</p>
+    <ul id="looks"><li><span class="choosey">andrógino</span>, <span class="choosey">fluido</span>, <span class="choosey">trans</span>, <span class="choosey">mulher</span>, <span class="choosey">homem</span></li><li><span class="choosey">asiático</span>, <span class="choosey">negro</span>, <span class="choosey">latino</span>, <span class="choosey">indígena</span>, <span class="choosey">oriente médio</span>, <span class="choosey">branco</span></li><li><span class="choosey">roupas confortáveis</span>, <span class="choosey">uniforme escolar</span>, <span class="choosey">roupas tradicionais</span>, <span class="choosey">roupas da moda</span></li><li><span class="choosey">traje moderno</span>, <span class="choosey">traje tradicional</span>, <span class="choosey">traje único</span>, <span class="choosey">traje do antecessor</span></li><li><span class="choosey">insígnia animal</span>, <span class="choosey">insígnia de letra</span>, <span class="choosey">insígnia de simples</span>, <span class="choosey">sem insígnia</span></li></ul>
+
+    <h2>Habilidades</h2>
+    <p>Você tem poderes que correspondem à sua linha geral. Escolha um conjunto de poderes, e dentre eles escolha dois que você não possui:</p>
+    <ul id="skills"><li><input type="checkbox">superforça, invencibilidade, raios oculares, vôo, super sentidos</li><li><input type="checkbox">supervelocidade, regeneração, atravessar sólidos, leitura ou aprendizado rápido, manipulação de ar</li><li><input type="checkbox">perfeição atlética, dedução sobre-humana, equipamentos e bugigangas, intimidação, reputação assustadora</li><li><input type="checkbox">armadura divina, arsenal mágico, força mística, velocidade lendária, beleza divina</li><li><input type="checkbox">controle de sombras, portais de sombras, confusão mental, manto de sombras furtivas, sentidos sombrios</li></ul>
+
+    <h2>Etiquetas</h2>
+    <p>Na criação de personagens, escolha uma das etiquetas para aumentar em 1.</p>
+    <p>Esquisito <input type="number" min="-2" max="3" value="0" id="freak"></p>
+    <p>Perigo <input type="number" min="-2" max="3" value="-1" id="danger"></p>
+    <p>Salvador <input type="number" min="-2" max="3" value="2" id="savior"></p>
+    <p>Superior <input type="number" min="-2" max="3" value="0" id="superior"></p>
+    <p>Mundano <input type="number" min="-2" max="3" value="1" id="mundano"></p>
+
+    <h2>Condições</h2>
+    <p><input type="checkbox" id="afraid"> Medo (-2 para diretamente engajar)</p>
+    <p><input type="checkbox" id="anger"> Raiva (-2 para confortar ou apoiar alguém)</p>
+    <p><input type="checkbox" id="guilt"> Culpa (-2 para provocar alguém ou avaliar a situação)</p>
+    <p><input type="checkbox" id="insecure"> Insegurança (-2 para defender ou rejeitar o que dizem)</p>
+    <p><input type="checkbox" id="hopeless"> Desespero (-2 para soltar seus poderes)</p>
+
+    <h2>Backstory</h2>
+    <ul><li>Quando você se tornou parte do seu legado?</li><li>Qual o maior feito de seu legado?</li><li>Como o público percebe seu legado?</li><li>Como seu legado se entrelaça aos motivos de você se tornar um herói?</li><li>Porque você se importa com a equipe?</li></ul>
+    <textarea id="backstory" placeholder="Escreva a sua backstory aqui."></textarea>
+
+    <h2>Quando nosso time se conheceu ...</h2>
+    <p>Considerando tudo o que rolou, nos saímos bem e impressionamos um herói estabelecido. Quem foi?</p>
+    <textarea id="description" placeholder="Descreva o evento onde vocês se conheceram aqui."></textarea>
+
+    <h2>Relacionamentos</h2>
+    <p>Uma vez você foi pego fazendo algo que envergonha seu legado com <input type="text" id="rel1"> </p>
+    <p>Você confia em <input type="text" id="rel2"> e lhe contou um importante segredo do seu legado</p>
+
+    <h2>Influência</h2>
+    <p>Você faz parte desta equipe, para o bem ou para o mal, e se importa com o que eles pensam. Dê influência a todos de seus companheiros de equipe.</p>
+    <textarea id="influence" placeholder="Escreva os nomes de quem tem influência sobre você aqui."></textarea>
+
+    <h2>Ações de legado</h2>
+    <p>Escolha dois.</p>
+    <ul id="class-moves"><li><input type="checkbox"><strong>Lutar a boa luta</strong>: Ao trocar golpes enquanto engaja diretamente com uma ameaça, você pode rolar <strong>+ Salvador</strong> ao invés de <strong>Perigo</strong>. Ao fazer isso não pode tentar Impressionar, Surpreender ou Ameaçar seu oponente</li><li><input type="checkbox"><strong>Eu sei o que sou</strong>: Uma vez por cena ao defender um colega de equipe pode aumentar Salvador e diminuir em um outro rótulo em adição a quaisquer outros benefícios do movimento mesmo se falhar.Se fizer isso, adiciona 1 ponto de Equipe ao pote.</li><li><input type="checkbox"><strong>Palavras do passado</strong>: Ao buscar a orientação de um adulto ou de um membro de seu legado, conte um problema que você enfrenta e faça uma pergunta sobre o problema. Você vai receber uma resposta honesta e um conselho sobre o que fazer. Receba +1 em diante se você ouvir. Se você seguir seu próprio caminho, marque Potencial</li><li><input type="checkbox"><strong>Assuntos do legado</strong>: Quando você toma Influência sobre alguém do seu legado (ou dá Influência sobre você), marque Potencial e receba + 1 na próxima. Quando alguém do seu legado mudar seus rótulos, marque Potencial e receba +1 na próxima.</li><li><input type="checkbox"><strong>Nunca desista, nunca se renda</strong>: Quando você receber um golpe poderoso de alguém muito mais poderoso que você, use essa Ação invés da básica. Role <strong>+ Salvador</strong>. Em sucesso, você se mantém forte e escolhe um:<ul><li>você tem uma oportunidade ou abertura contra seu atacante</li><li>você se recupera do golpe e isso inspira a equipe; adicione 1 ponto de Equipe ao pote</li><li>você mantém a atenção do seu atacante</li></ul><br/>Se não for sucesso completo, marque uma condição. Em falha, você cai com força, mas deixa seu oponente desequilibrado e vulnerável.</li><li><input type="checkbox"><strong>Símbolo de autoridade</strong>: Quando você dá uma ordem a um NPC com base na autoridade que ele reconhece, role <strong>+ Salvador</strong>. Com um acerto, o NPC escolhe um:<ul><li>fazer o que você diz</li><li>sair do seu caminho</li><li>desvantagem para atacar você</li><li>congelar</li></ul><br/>Se for sucesso completo, você também recebe +1 em diante contra o NPC. Em uma falha, o NPC faz o que quer e você recebe -1 em diante contra eles.</li></ul>
+
+    <h2 id="extra-header">Legado</h2>
+    <p>Seu legado é uma parte importante da cidade. Sempre que o tempo passar, role <strong>+ Salvador</strong> para ver como os membros do seu legado se sentem ou reagem às suas façanhas mais recentes.<br /><br />Antes de rolar, faça essas perguntas aos outros jogadores, e receba -1 na rolagem para cada “não”:<ul><li>você tem mantido as tradições do seu legado?</li><li>você manteve a imagem do seu legado?</li><li>você deixou os outros membros do seu legado orgulhosos?</li></ul>Em sucesso, um deles oferece um incentivo significativo, uma oportunidade ou uma vantagem. Se não for completo, algum deles está chateado com suas ações mais recentes e manifestará seu descontentamento. Em falha, algo que você fez despertou o ninho de vespas; espere que vários membros de seu legado se intrometam em sua vida.<br/><br />Nomeie os diferentes membros do seu legado (pelo menos dois)</p>
+    <ul id="extras"><li><input type="text"> ainda está ativo e proeminente na cidade</li><li><input type="text"> está aposentado e bastante crítico.</li><li><input type="text"> é o próximo possível membro do seu legado</li><li><input type="text"> é o maior oponente que seu legado já enfrentou... e ainda está foragido</li></ul>
+
+    <h2>Momento da Verdade</h2>
+    <p>Este é o momento em que você prova o quanto você merece o manto. Você assume o controle de todos os seus poderes e faz o quase impossível para provar que é digno do nome que carrega.<br/><br/>Você realiza proezas que nem mesmo seus antecessores poderiam realizar. É claro que, depois de provar algo assim, você pode esperar que ainda mais responsabilidades sejam atribuídas a você ...</p>
+
+    <h2>Ações de Equipe</h2>
+    <p>Quando fazer uma celebração triunfante com alguém, diga se você o vê como igual. Se você fizer isso, dê influência sobre você e marque Potencial. Caso contrário, suba Superior e desça qualquer outro rótulo.</p>
+    <p>Quando compartilhar uma vulnerabilidade ou fraqueza com alguém, conte um segredo sobre seu legado (incluindo seus próprios sentimentos verdadeiros sobre isso) para limpar uma condição, e dê Influência sobre você</p>
+
+    <h2 class="pbottom">Potencial</h2>
+    <p>Cada vez que falhar em uma ação, marque potencial.</p>
+    <ul id="potential">
+        <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox">
+    </ul>
+
+    <h2>Avanços</h2>
+    <p>Quando preencher seus pontos de potencial, escolha da lista a seguir:</p>
+    <ul id="advancement1"><li><input type="checkbox">Escolha outra ação de sua classe</li><li><input type="checkbox">Escolha outra ação de sua classe</li><li><input type="checkbox">Escolha uma ação de outra classe</li><li><input type="checkbox">Alguém perde permanentemente a Influência sobre você, adicione +1 a um rótulo a sua escolha</li><li><input type="checkbox">Reorganize seus rótulos como quiser e adicione +1 a um rótulo</li><li><input type="checkbox">Destrave seu Momento da Verdade</li><li><input type="checkbox">Receba um Santuário da classe do Condenado</li><li><input type="checkbox">Desbloqueie os dois poderes faltantes do seu conjunto do legado</li></ul>
+
+    <p>Depois de escolher cinco itens da lista acima, você pode escolher avanços da lista abaixo.</p>
+    <ul id="advancement2"><li><input type="checkbox">Destrave seu segundo Momento da Verdade</li><li><input type="checkbox">Troque de Classe</li><li><input type="checkbox">Escolha uma Ação de Adulto</li><li><input type="checkbox">Escolha uma Ação de Adulto</li><li><input type="checkbox">Congele um rótulo e adicione +1 a um rótulo a sua escolha</li><li><input type="checkbox">Se aposente ou vire um exemplo da cidade</li></ul>
+
+    <h2>Outras Ações</h2>
+    <textarea id="other-moves" placeholder="Descreva ações de outras classes aqui"></textarea>
+
+    <h2>Anotações</h2>
+    <textarea id="notes"></textarea>
+
+    <script>
+        document.querySelectorAll(".choosey").forEach(node => {
+            node.onclick = () => node.classList.toggle("chosen");
+        });
+
+        const extraHeader = document.getElementById('extra-header');
+        if (extraHeader.innerHTML == "") {
+            extraHeader.classList.add("dnone");
+        }
+    </script>
+</body>
+</html>

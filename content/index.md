@@ -26,7 +26,7 @@ Já **falhas** indicam que algo inesperado aconteceu que atrapalhou a sua vida. 
 
 Algumas **ações** dizem, em suas descrições, coisas como "guarde 1" ou "guarde 3". Esses são pontos temporários que você pode gastar de acordo com a **ação**, geralmente com a frase "gaste pontos guardados 1:1" querendo dizer "gaste 1 ponto guardado para um efeito conforme descrito na **ação**." Normalmente, pontos guardados tem que ser usados durante uma dada conversa ou cena, mas **ações** devem te dizer por quanto tempo eles duram. Se tiver dúvida ou existir ambiguidade, consulte com o mestre.
 
-Outras **ações** dizem coisas como "tomando +1 na próxima" ou "tomando +1 em diante."Um bônus "na próxima" se aplica somente à próxima rolagem aplicável, já "em diante" se aplica a todas as rolagens aplicáveis daquele ponto em diante, como descrito pela **ação**. A **ação** sempre descreve quanto esses bônuses duram.
+Outras **ações** dizem coisas como "tomando +1 na próxima" ou "tomando +1 em diante". Um bônus "na próxima" se aplica somente à próxima rolagem aplicável, já "em diante" se aplica a todas as rolagens aplicáveis daquele ponto em diante, como descrito pela **ação**. A **ação** sempre descreve quanto esses bônuses duram.
 
 ## Heróis
 
@@ -48,11 +48,11 @@ E **habilidades** também não dizem exatamente o que você pode ou não fazer: 
 
 Você vai descobrir os específicos de suas habilidades através do jogo em sua mesa, por discussões com o mestre, e por suas próprias decisões.
 
-### Etiquetas
+### Rótulos
 
-Em Máscaras, você tem 5 atributos principais chamados Etiquetas. Cada Etiqueta vai te dizer quanto seu personagem entende sua auto-imagem. Essas Etiquetas mudam através do jogo e conforme a auto-imagem de seu personagem muda, e essas mudanças são geralmente em reação direta a como outros te veem. Quando você é um jovem herói, como você se vê é determinado tanto por outros quanto por suas próprias escolhas.
+Em Máscaras, você tem 5 atributos principais chamados Rótulos. Cada Rótulo vai te dizer quanto seu personagem entende sua auto-imagem. Esses Rótulos mudam através do jogo e conforme a auto-imagem de seu personagem muda, e essas mudanças são geralmente em reação direta a como outros te veem. Quando você é um jovem herói, como você se vê é determinado tanto por outros quanto por suas próprias escolhas.
 
-As cinco etiquetas são:
+As cinco rótulos são:
 
 - **Perigo**: Você se vê como ameaçador, forte e arriscado. Outros te vem como um Perigo quando acham que devem evitar você porque acha que você vai os machucar. Voc~e se vê como um Perigo quando acha que pode derrotar ameaças perigosas e quando acha que você é uma ameaça para os outros.<br/><br/>
 
@@ -64,11 +64,11 @@ As cinco etiquetas são:
 
 - **Mundano**: Você se vê como normal, humano, empático e compreensivo. Outros te vem como mundano quando acham que você é normal e não interessante, mas também compreensivo e simpático. Você se vê como mundano quando acha que é normal demais, só uma pessoa, não especial e focado em coisas humanas normais como sentimentos e emoções.
 
-Cada **classe** vem com um conjunto predeterminado de valores para suas **etiquetas**, e pode adicionar +1 para cada **etiqueta** à sua escolha, contanto que não passe de +3. Mas tenha em mente que elas vão mudar muito. Algumas regras importantes:
+Cada **classe** vem com um conjunto predeterminado de valores para seus **rótulos**, e pode adicionar +1 para um **rótulo** à sua escolha, contanto que não passe de +3. Mas tenha em mente que elas vão mudar muito. Algumas regras importantes:
 
-A maioria das vezes quando uma **etiqueta** sobe, outra desce, e vice versa. Pode ter alguns casos onde não vai ser o caso, mas se alguma regra só mudar etiquetas sem explicação, por padrão uma sobe e outra desce.
+A maioria das vezes quando um **rótulo** sobe, outro desce, e vice versa. Pode ter alguns casos onde não vai ser o caso, mas se alguma regra só mudar rótulos sem explicação, por padrão um sobe e outro desce.
 
-E se uma **etiqueta** fosse mudar para mais de +3 ou menos de -2, então nenhuma mudança acontece: nenhuma das **etiquetas** sobe ou desce. Mas em seu lugar, você marca uma condição — explicado abaixo —, afinal, se você se ver como um extremo demais, isso começa a te afetar.
+E se um **rótulo** for mudar para mais de +3 ou menos de -2, então nenhuma mudança acontece: nenhuma dos **rótulos** sobe ou desce. Mas em seu lugar, você marca uma **Condição**, afinal, se você se ver como um extremo demais, isso começa a te afetar.
 
 ### Trabalho em Equipe
 
@@ -146,7 +146,7 @@ Você não ativa a **ação** se você está tentando _se_ proteger _a menos_ qu
 
 **Avaliar a situação** é a **ação** para conseguir informação útil e específica sobre sua situação e arredores. Na ficção, isso é refletido pelo personagem tomar um momento para ver o que está acontecendo ao redor e procurar por detalhes importantes. Você sempre pode perguntar ao mestre sobre o seu ambiente e o que seu personagem saberia — avaliar a situação é pra informação bem específica.
 
-Contanto que esteja usando a informação que você aprendeu da **ação** para guiar o que for fazer, você toma +1 para suas **ações** e rolagens. Mas se a situação mudar demais, você pode não ganhar mais esse bônus. Se puder fazer uma ação que use múltiplas respostas, os bônus empilham, mas você nunca pode rolar com mais de +4, incluindo o bônus de sua etiqueta.
+Contanto que esteja usando a informação que você aprendeu da **ação** para guiar o que for fazer, você toma +1 para suas **ações** e rolagens. Mas se a situação mudar demais, você pode não ganhar mais esse bônus. Se puder fazer uma ação que use múltiplas respostas, os bônus empilham, mas você nunca pode rolar com mais de +4, incluindo o bônus de seu rótulo.
 
 ### Provocar alguém
 
@@ -172,7 +172,7 @@ Você só pode **provocar alguém** suscetível a suas palavras. Se você tem **
 
 ### Confortar ou apoiar alguém
 
-<blockquote>Quando você <strong>conforta ou apoia alguém</strong>, role <strong>+ Mundano</strong>. Em um sucesso, ele te escutam, e marca um <b>Potencial</b>, limpa uma <b>condição</b> ou muda <b>etiquetas</b> se se abrir a você. Se o sucesso for completo, você também pode adicionar um ponto de <b>Equipe</b> ao pote ou limpar uma condição sua.
+<blockquote>Quando você <strong>conforta ou apoia alguém</strong>, role <strong>+ Mundano</strong>. Em um sucesso, ele te escutam, e marca um <b>Potencial</b>, limpa uma <b>condição</b> ou muda <b>rótulos</b> se se abrir a você. Se o sucesso for completo, você também pode adicionar um ponto de <b>Equipe</b> ao pote ou limpar uma condição sua.
 </blockquote>
 
 **Confortar ou apoiar alguém** é a **ação** para ajudar outros a superar suas **condições** e tomar controle de seus próprios destinos. A ficção precisa passar de um certo limite para a **ação** ser ativada: isso é para um apoio emocional e genuíno de outra pessoa, para gestos com significados.
@@ -250,7 +250,7 @@ A chave dessa **ação** é "inimigo vulnerável": inimigos perigosos quase semp
 
 <blockquote>Quando você <strong>persuade alguém com seus melhores interesses</strong>, role <strong>+ Superior</strong>. Se for um NPC, em um sucesso completo, eles pegam a isca e agem de maneira apropriada. Se não for completo, ele precisa de garantia concreta.
 
-Se for um jogador, em um sucesso, ele pode marcar <strong>Potencial</strong> ou mudar as etiquetas se fizerem o que você pedir. Se for sucesso completo, tome <strong>influência</strong> sobre ele também.
+Se for um jogador, em um sucesso, ele pode marcar <strong>Potencial</strong> ou mudar rótulos se fizerem o que você pedir. Se for sucesso completo, tome <strong>influência</strong> sobre ele também.
 
 </blockquote>
 
@@ -312,28 +312,28 @@ Cada classe tem 2 **ações** listadas na seção "Ações de Equipe". Essas sem
 
 Você pode gastar pontos de **Equipe** para ser egoísta também.
 
-<blockquote>Quando você <strong>age de maneira egoísta</strong>, diga como você ignora ou insulta seus colegas, tire um ponto de <b>Equipe</b> do pote, e mude suas etiquetas. Você pode usar essa opção depois de rolar para alterar a etiqueta com a qual rolou.
+<blockquote>Quando você <strong>age de maneira egoísta</strong>, diga como você ignora ou insulta seus colegas, tire um ponto de <b>Equipe</b> do pote, e mude seus rótulos. Você pode usar essa opção depois de rolar para alterar o rótulo com o qual rolou.
 </blockquote>
 
 Geralmente, os membros da equipe que determinam se se sentiriam ignorados ou insultados pela ação egoísta, mas o mestre pode aprovar se parecer apropriado.
 
 ## Influência
 
-**Influência** tem alguns efeitos mecânicos, dentre eles os principais são **mudar etiquetas** e **abusar da sua Influência**. Você também tem um bônus passivo de +1 para qualquer ação que tenha como alvo um personagem sobre o qual você tem **influência**.
+**Influência** tem alguns efeitos mecânicos, dentre eles os principais são **mudar rótulos** e **abusar da sua Influência**. Você também tem um bônus passivo de +1 para qualquer ação que tenha como alvo um personagem sobre o qual você tem **influência**.
 
-### Mudar Etiquetas
+### Mudar Rótulos
 
-Um personagem com **influência** sobre você pode tentar **mudar suas etiquetas** ao dizer como você é ou como você deveria ser. Isso não é ativado para qualquer comentário — é necessário um pouco de drama e intencionalidade — mas quando um personagem ativa essa mecânica, você pode tentar **rejeitar a influência** ou só aceitar.
+Um personagem com **influência** sobre você pode tentar **mudar seus rótulos** ao dizer como você é ou como você deveria ser. Isso não é ativado para qualquer comentário — é necessário um pouco de drama e intencionalidade — mas quando um personagem ativa essa mecânica, você pode tentar **rejeitar a influência** ou só aceitar.
 
-Se aceitar, você só muda as etiquetas e o jogo continua normalmente.
+Se aceitar, você só muda os rótulos e o jogo continua normalmente.
 
-Se você tentar rejeitar, você rola os dados sem adicionar nenhuma etiqueta. Em caso de sucesso, escolha um dos seguintes (e um a mais se o sucesso for completo):
+Se você tentar rejeitar, você rola os dados sem adicionar nenhum rótulo. Em caso de sucesso, escolha um dos seguintes (e um a mais se o sucesso for completo):
 
 - Limpe uma condição **ou** marque potencial ao _imediatamente_ agir para desmentir o personagem.
-- Muda suas etiquetas à sua escolha.
+- Muda seus rótulos à sua escolha.
 - Cancela a influência dela e tome +1 em diante contra o personagem.
 
-Caso falhe, as palavras do personagem batem forte em você. Marque uma condição e o mestre ajusta suas etiquetas.
+Caso falhe, as palavras do personagem batem forte em você. Marque uma condição e o mestre ajusta seus rótulos.
 
 ### Abusar da sua Influência
 
@@ -395,4 +395,4 @@ O seu **Momento da Verdade** é um script para um momento especial onde você to
 
 De maneira geral, você não está controlando a mente de ninguém — então não pode dizer o que outros personagens escolhem fazer — mas você pode controlar basicamente todo o resto, incluso como você derrota um inimigo ou como muda o mundo ao seu redor. É um momento onde o holofote está no seu personagem e queremos todos ver ele se mostrar!
 
-Você precisa destravar o seu **Momento da Verdade** antes de usar, mas depois de destravado, pode usar uma vez quando você quiser. Depois que o **momento** acabar, congele uma de suas **etiquetas** — ela nunca mais vai mudar.
+Você precisa destravar o seu **Momento da Verdade** antes de usar, mas depois de destravado, pode usar uma vez quando você quiser. Depois que o **momento** acabar, congele um de seus **rótulos** — ele nunca mais vai mudar.

@@ -3,3 +3,7 @@ theme: readthedocs
 extra_css: ["style.css"]
 docs_dir: content
 site_dir: docs
+
+nav:
+  - index.md
+  - classes.md

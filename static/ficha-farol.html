@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ficha.css">
+    
+    <title>Ficha</title>
+</head>
+<body>
+    <h1>farol</h1>
+    <span id="names">
+    <input type="text" placeholder="Nome de Herói" id="heroname">
+    <input type="text" placeholder="Nome Real" id="realname">
+    </span>
+
+    <h2>Aparência</h2>
+    <p>Clique no elemento que se aplica:</p>
+    <ul id="looks"><li><span class="choosey">andrógino</span>, <span class="choosey">fluido</span>, <span class="choosey">trans</span>, <span class="choosey">mulher</span>, <span class="choosey">homem</span></li><li><span class="choosey">asiático</span>, <span class="choosey">negro</span>, <span class="choosey">latino</span>, <span class="choosey">indígena</span>, <span class="choosey">oriente médio</span>, <span class="choosey">branco</span></li><li><span class="choosey">rosto sorridente</span>, <span class="choosey">cara ingênua</span>, <span class="choosey">rosto genérico</span>, <span class="choosey">rostinho bonito</span></li><li><span class="choosey">roupas estilosas</span>, <span class="choosey">roupas confortáveis</span>, <span class="choosey">roupas simples</span>, <span class="choosey">roupas casuais</span></li><li><span class="choosey">traje espalhafatoso</span>, <span class="choosey">traje estiloso</span>, <span class="choosey">traje cafona</span>, <span class="choosey">traje icônico</span></li></ul>
+
+    <h2>Habilidades</h2>
+    <p>Se tiver superpoderes, são bem fracos. Se for habilidades, você tem o equipamento necessário. Escolha dois.</p>
+    <ul id="skills"><li><input type="checkbox">arco e flechas especiais</li><li><input type="checkbox">espadas</li><li><input type="checkbox">artes marciais</li><li><input type="checkbox">acrobacia</li><li><input type="checkbox">camuflagem e furtividade</li><li><input type="checkbox">intangibilidade</li></ul>
+
+    <h2>Etiquetas</h2>
+    <p>Na criação de personagens, escolha uma das etiquetas para aumentar em 1.</p>
+    <p>Esquisito <input type="number" min="-2" max="3" value="-1" id="freak"></p>
+    <p>Perigo <input type="number" min="-2" max="3" value="-1" id="danger"></p>
+    <p>Salvador <input type="number" min="-2" max="3" value="2" id="savior"></p>
+    <p>Superior <input type="number" min="-2" max="3" value="0" id="superior"></p>
+    <p>Mundano <input type="number" min="-2" max="3" value="2" id="mundano"></p>
+
+    <h2>Condições</h2>
+    <p><input type="checkbox" id="afraid"> Medo (-2 para diretamente engajar)</p>
+    <p><input type="checkbox" id="anger"> Raiva (-2 para confortar ou apoiar alguém)</p>
+    <p><input type="checkbox" id="guilt"> Culpa (-2 para provocar alguém ou avaliar a situação)</p>
+    <p><input type="checkbox" id="insecure"> Insegurança (-2 para defender ou rejeitar o que dizem)</p>
+    <p><input type="checkbox" id="hopeless"> Desespero (-2 para soltar seus poderes)</p>
+
+    <h2>Backstory</h2>
+    <ul><li>Como ganhou suas habilidades?</li><li>Quando você vestiu o traje pela primeira vez?</li><li>Quem, fora da equipe, acha que você não deve ser um super-herói?</li><li>Porque você tenta ser um herói?</li><li>Porque você se importa com a equipe?</li></ul>
+    <textarea id="backstory" placeholder="Escreva a sua backstory aqui."></textarea>
+
+    <h2>Quando nosso time se conheceu ...</h2>
+    <p>Encontramos sinais que esse incidente era só o começo de algo maior. Quais eram os sinais?</p>
+    <textarea id="description" placeholder="Descreva o evento onde vocês se conheceram aqui."></textarea>
+
+    <h2>Relacionamentos</h2>
+    <p> <input type="text" id="rel1"> é muito legal! Quando te chama pro rolê, você sempre aceita.</p>
+    <p>Você acha que tem que se provar para <input type="text" id="rel2"> antes de ser um herói de verdade.</p>
+
+    <h2>Influência</h2>
+    <p>Você está tão feliz de estar aqui! Dê Influência para 3 dos seus colegas.</p>
+    <textarea id="influence" placeholder="Escreva os nomes de quem tem influência sobre você aqui."></textarea>
+
+    <h2>Ações de farol</h2>
+    <p>Escolha dois.</p>
+    <ul id="class-moves"><li><input type="checkbox"><strong>Sempre alerta</strong>: Quando estiver observando um lugar, role <strong>+ Mundano</strong>. Em sucesso, pergunte uma (e se completo, pergunte um a mais):<ul><li>qual é o melhor jeito de entrar ou sair?</li><li>o que aconteceu aqui recentemente</li><li>o que aqui vale a pena pegar?</li><li>quem ou o quê aqui não é o que parece ser?</li><li>esse lugar é de quem?</li></ul><p>Se falhar, você está lidando com algo além do que você consegue. O mestre vai te dizer porque.</p></li><li><input type="checkbox"><strong>Sem poderes ou treinamento</strong>: Você tá sempre pegando equipamento novo para se manter afiado. Sempre que pegar um equipamento novo, escreva na caixa abaixo (se vazia) e trate como uma nova habilidade.<div><input type="text" id="beacon-extra-gear"></div>A primeira vez que você usar cada equipamento para engajar uma ameaça, soltar seus poderes ou defender alguém, você pode rolar <strong>+ Mundano</strong> invés do rótulo normal.</li><li><input type="checkbox"><strong>Não vou te decepcionar</strong>: Quando você ajudar um colega, você pode gastar 2 pontos de Equipe para adicionar +2 à rolagem.</li><li><input type="checkbox"><strong>Basicamente um super-herói</strong>: Quando você mencionar seu nome de super-herói para alguém importante (você decide) pela primeira vez, role <strong>+ Salvador</strong>.<p>Em sucesso, eles ouviram falar de você; diga qual de seus feitos eles ouviram e qual rótulo eles acham que se aplica. Se não for completo, o mestre vai te dizer algo a mais que eles ouviram e escolher uma segunda ameaça.</p>Em caso de falha, eles não te levam a sério ou não confiam em você daqui em diante.</li><li><input type="checkbox"><strong>Vem cá, Krypto</strong>: Você tem um mascote de algum tipo, um companheiro menor que te ajuda. Detalhe o que é, escolha três ações básicas e diga ao mestre como ele te ajuda com essas ações.<br /><br />Toda vez que o mascote possa te ajudar, você ganha +1 para essa ação. Se em algum momento ele se machucar, trate como tomar um porradão.</li><li><input type="checkbox"><strong>Chupa, otário!</strong>: Quando você está sendo atacado dramaticamente e não desiste, role <strong>+ Salvador</strong> invés do rótulo normal para engajar uma ameaça.</li></ul>
+
+    <h2 id="extra-header">Motivações</h2>
+    <p>Quando preencher uma motivação escolhida, a marque e escolha um: marque potencial, limpe uma condição ou escolha Influência sobre alguém envolvido.</p><p>Quando todas estiverem marcadas, escolha uma nova classe, se aposente ou vire um exemplo da cidade.</p>
+    <ul id="extras"><li><input type="checkbox">liderou a equipe em batalha</li><li><input type="checkbox">beijou alguém perigoso</li><li><input type="checkbox">socou alguém que não devia</li><li><input type="checkbox">ajudou um colega quando mais precisava de você</li><li><input type="checkbox">derrotou uma ameaça sozinho</li><li><input type="checkbox">fez melhor que um herói adulto</li><li><input type="checkbox">conseguiu fazer algo que não devia dar certo</li><li><input type="checkbox">salvou a vida de um colega</li><li><input type="checkbox">ficou bêbado ou alto com um colega</li><li><input type="checkbox">dirigiu um veículo fantástico</li><li><input type="checkbox">trocar de traje</li><li><input type="checkbox">trocar o nome de herói</li><li><input type="checkbox">conseguir o respeito de um herói que você admira</li><li><input type="checkbox">dar uns amassos com um colega</li><li><input type="checkbox">socar um colega</li><li><input type="checkbox">terminar com alguém</li><li><input type="checkbox">apartar uma briga</li><li><input type="checkbox">contar seus sentimentos verdadeiros para alguém</li><li><input type="checkbox">viajar para um lugar (ou tempo) incrível</li><li><input type="checkbox">rejeitar a influência de alguém que diz que você "não devia estar aqui"</li></ul>
+
+    <h2>Momento da Verdade</h2>
+    <p>Isso é o momento que você mostra pra eles exatamente porque você merece estar aqui. Você faz qualquer uma coisa, derrota um inimigo, não importa quão insano ou quão ridículo, porque é você. Os queixos vão cair quando você terminar. Mas é claro, fazer algo assim traz atenção indesejada e uma reputação perigosa ...</p>
+
+    <h2>Ações de Equipe</h2>
+    <p>Quando fazer uma celebração triunfante com alguém, diga pra eles como eles são maneiros e adicione um ponto de Equipe ao pote. Se falaram pra você que é legal também, adicione mais um ponto de Equipe ao pote.</p>
+    <p>Quando compartilhar uma vulnerabilidade ou fraqueza com alguém, pergunte se você deve estar aqui. Se disserem sim, marque um Potencial e dê Influência. Se não, marque Raiva e mude rótulos, à sua escolha.</p>
+
+    <h2 class="pbottom">Potencial</h2>
+    <p>Cada vez que falhar em uma ação, marque potencial.</p>
+    <ul id="potential">
+        <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox">
+    </ul>
+
+    <h2>Avanços</h2>
+    <p>Quando preencher seus pontos de potencial, escolha da lista a seguir:</p>
+    <ul id="advancement1"><li><input type="checkbox">Escolha outra ação de sua classe</li><li><input type="checkbox">Escolha outra ação de sua classe</li><li><input type="checkbox">Escolha uma ação de outra classe</li><li><input type="checkbox">Escolha uma ação de outra classe</li><li><input type="checkbox">Escolha uma ação de outra classe</li><li><input type="checkbox">Alguém permanentemente perde Influência sobre você</li><li><input type="checkbox">Adicione +1 a um rótulo</li><li><input type="checkbox">Reorganize seus rótulos como quiser e adicione +1 a um rótulo</li><li><input type="checkbox">Destrave seu Momento de Verdade</li></ul>
+
+    <p>Depois de escolher cinco itens da lista acima, você pode escolher avanços da lista abaixo.</p>
+    <ul id="advancement2"><li><input type="checkbox">Destrave seu segundo Momento de Verdade</li><li><input type="checkbox">Mude de classe</li><li><input type="checkbox">Escolha uma Ação de Adulto</li><li><input type="checkbox">Escolha uma Ação de Adulto</li><li><input type="checkbox">Congele um rótulo e adicione +1 a um rótulo a sua escolha</li><li><input type="checkbox">Se aposente ou vire um exemplo da cidade</li></ul>
+
+    <h2>Outras Ações</h2>
+    <textarea id="other-moves" placeholder="Descreva ações de outras classes aqui"></textarea>
+
+    <h2>Anotações</h2>
+    <textarea id="notes"></textarea>
+
+    <script>
+        document.querySelectorAll(".choosey").forEach(node => {
+            node.onclick = () => node.classList.toggle("chosen");
+        });
+
+        const extraHeader = document.getElementById('extra-header');
+        if (extraHeader.innerHTML == "") {
+            extraHeader.classList.add("dnone");
+        }
+    </script>
+</body>
+</html>

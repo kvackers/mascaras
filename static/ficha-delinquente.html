@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ficha.css">
+    
+    <title>Ficha</title>
+</head>
+<body>
+    <h1>delinquente</h1>
+    <span id="names">
+    <input type="text" placeholder="Nome de Herói" id="heroname">
+    <input type="text" placeholder="Nome Real" id="realname">
+    </span>
+
+    <h2>Aparência</h2>
+    <p>Clique no elemento que se aplica:</p>
+    <ul id="looks"><li><span class="choosey">andrógino</span>, <span class="choosey">fluido</span>, <span class="choosey">trans</span>, <span class="choosey">mulher</span>, <span class="choosey">homem</span></li><li><span class="choosey">asiático</span>, <span class="choosey">negro</span>, <span class="choosey">latino</span>, <span class="choosey">indígena</span>, <span class="choosey">oriente médio</span>, <span class="choosey">branco</span></li><li><span class="choosey">olhos risonhos</span>, <span class="choosey">olhos cínicos</span>, <span class="choosey">olhos desconfiados</span>, <span class="choosey">olhos com ódio</span></li><li><span class="choosey">roupas casuais</span>, <span class="choosey">roupas rasgadas</span>, <span class="choosey">roupas rebeldes</span>, <span class="choosey">roupas chamativas</span></li><li><span class="choosey">traje biscate</span>, <span class="choosey">traje chamativo</span>, <span class="choosey">traje ridículo</span>, <span class="choosey">traje barato</span>, <span class="choosey">sem traje</span></li></ul>
+
+    <h2>Habilidades</h2>
+    <p>Seus poderes são frustrantes, complicados ou enganadores. Escolha dois:</p>
+    <ul id="skills"><li><input type="checkbox">teleporte</li><li><input type="checkbox">truques e ilusões</li><li><input type="checkbox">bugigangas e hackear</li><li><input type="checkbox">armas psíquicas</li><li><input type="checkbox">controle emocional</li><li><input type="checkbox">negação de poderes</li></ul>
+
+    <h2>Etiquetas</h2>
+    <p>Na criação de personagens, escolha uma das etiquetas para aumentar em 1.</p>
+    <p>Esquisito <input type="number" min="-2" max="3" value="0" id="freak"></p>
+    <p>Perigo <input type="number" min="-2" max="3" value="0" id="danger"></p>
+    <p>Salvador <input type="number" min="-2" max="3" value="-1" id="savior"></p>
+    <p>Superior <input type="number" min="-2" max="3" value="2" id="superior"></p>
+    <p>Mundano <input type="number" min="-2" max="3" value="1" id="mundano"></p>
+
+    <h2>Condições</h2>
+    <p><input type="checkbox" id="afraid"> Medo (-2 para diretamente engajar)</p>
+    <p><input type="checkbox" id="anger"> Raiva (-2 para confortar ou apoiar alguém)</p>
+    <p><input type="checkbox" id="guilt"> Culpa (-2 para provocar alguém ou avaliar a situação)</p>
+    <p><input type="checkbox" id="insecure"> Insegurança (-2 para defender ou rejeitar o que dizem)</p>
+    <p><input type="checkbox" id="hopeless"> Desespero (-2 para soltar seus poderes)</p>
+
+    <h2>Backstory</h2>
+    <ul><li>Como conseguiu seus poderes?</li><li>O que você faz pra se divertir?</li><li>Quem, fora do time, tem uma opinião melhor de você do que você tem de si mesmo?</li><li>Porque você tenta ser um herói?</li><li>Porque você se importa com a equipe?</li></ul>
+    <textarea id="backstory" placeholder="Escreva a sua backstory aqui."></textarea>
+
+    <h2>Quando nosso time se conheceu ...</h2>
+    <p>Quebramos algumas regras importantes para vencer a luta. Quais regras quebramos, e regras de quem?</p>
+    <textarea id="description" placeholder="Descreva o evento onde vocês se conheceram aqui."></textarea>
+
+    <h2>Relacionamentos</h2>
+    <p>Você tá sempre tentando impressionar <input type="text" id="rel1"> .</p>
+    <p>Você e  <input type="text" id="rel2"> tiveram um rolê muito legal (mesmo que ilegal) juntos.</p>
+
+    <h2>Influência</h2>
+    <p>Você se importa bem mais que transparece. Dê influência para 3 colegas.</p>
+    <textarea id="influence" placeholder="Escreva os nomes de quem tem influência sobre você aqui."></textarea>
+
+    <h2>Ações de delinquente</h2>
+    <p>Escolha dois.</p>
+    <ul id="class-moves"><li><input type="checkbox"><strong>Do Contra</strong>: Quando alguém tenta perfurar sua máscara, te confortar ou apoiar ou te provocar, você pode interferir. Role <strong>+ Superior</strong>. Em sucesso, eles tomam -2 na sua rolagem. Se for completo, você também ganha influência sobre eles ou limpa uma condição. Em uma falha, eles ganham um sucesso completo independente do que rolarem e você marca uma condição a escolha deles.</li><li><input type="checkbox"><strong>Caguei pra você</strong>: Quando rejeitar a influência de alguém, adicione +2 a sua rolagem.</li><li><input type="checkbox"><strong>Time? Que time?</strong>: Quando você usa pontos de Equipe de maneira egoísta, limpe uma condição ou marque potencial. A primeira vez em uma sessão que usar pontos de Equipe para ajudar um colega, tome +1 na próxima.</li><li><input type="checkbox"><strong>Mente Criminosa</strong>: Quando avalia a situação, você você sempre pode perguntar uma das perguntas abaixo, mesmo em falha:<ul><li>o que aqui é útil ou valioso pra mim?</li><li>como posso irritiar ou provocar ____?</li><li>qual é o melhor jeito de entrar / passar pelo obstáculo?</li></ul></li><li><input type="checkbox"><strong>Problemático</strong>: Quando ajuda um colega por ações destrutivas, criminosas ou que quebram regras, você pode dar +2 invés de +1 quando gasta um ponto de Equipe.</li><li><input type="checkbox"><strong>Tá prestando atenção?</strong>: Quando você distrai ou engana alguém, role <strong>+ Superior</strong>. Em sucesso, escolha dois e eles são enganados, pelo menos por enquanto. Se for sucesso completo, escolha um a mais:<ul><li>você ganha uma oportunidade</li><li>você expõe uma fraqueza ou falha</li><li>você confunde eles por algum tempo</li><li>você evita que a situação se extenda</li></ul>Em falha, você tá perdido e sob pressão: marque uma condição.</li></ul>
+
+    <h2 id="extra-header"></h2>
+    <p></p>
+    <ul id="extras"></ul>
+
+    <h2>Momento da Verdade</h2>
+    <p>Agora que você mostra quem você é de verdade. Se você é o herói debaixo da fachada de rebelde ... ou quem faz as escolhas difíceis que heróis não podem, ou querem, fazer. Você faz o que for necessário para mostrar a verdade, seja salvando o dia de um vilão terrível ou parando um cara mal de uma vez por todas. Mas é claro, que depois que mostrar quem é de verdade, não tem como voltar a se fingir de palhaço ...</p>
+
+    <h2>Ações de Equipe</h2>
+    <p>Quando fazer uma celebração triunfante com alguém, lhes pergunte se acham que você é legal. Se sim, dê e receba Influência. Se não, marque uma condição e os rejeite imediatamente. Se forem colegas, independente da resposta, adicione um ponto de Equipe ao ponto.</p>
+    <p>Quando compartilhar uma vulnerabilidade ou fraqueza com alguém, lhes dê Influência e pergunte quem que eles gostariam que você fosse. Marque potencial se você mostrar pra eles essa pessoa. Se forem colegas, independente da resposta, adicione um ponto de Equipe ao pote.</p>
+
+    <h2 class="pbottom">Potencial</h2>
+    <p>Cada vez que falhar em uma ação, marque potencial.</p>
+    <ul id="potential">
+        <input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox"><input type="checkbox">
+    </ul>
+
+    <h2>Avanços</h2>
+    <p>Quando preencher seus pontos de potencial, escolha da lista a seguir:</p>
+    <ul id="advancement1"><li><input type="checkbox">Escolha outra ação de sua classe</li><li><input type="checkbox">Escolha outra ação de sua classe</li><li><input type="checkbox">Escolha uma ação de outra classe</li><li><input type="checkbox">Escolha uma ação de outra classe</li><li><input type="checkbox">Alguém permanentemente perde Influência sobre você</li><li><input type="checkbox">Adicione +1 a dois rótulos</li><li><input type="checkbox">Reorganize seus rótulos como quiser e adicione +1 a um rótulo</li><li><input type="checkbox">Destrave seu Momento de Verdade</li></ul>
+
+    <p>Depois de escolher cinco itens da lista acima, você pode escolher avanços da lista abaixo.</p>
+    <ul id="advancement2"><li><input type="checkbox">Destrave seu segundo Momento de Verdade</li><li><input type="checkbox">Mude de classe</li><li><input type="checkbox">Escolha uma Ação de Adulto</li><li><input type="checkbox">Escolha uma Ação de Adulto</li><li><input type="checkbox">Congele um rótulo e adicione +1 a um rótulo a sua escolha</li><li><input type="checkbox">Se aposente ou vire um exemplo da cidade</li></ul>
+
+    <h2>Outras Ações</h2>
+    <textarea id="other-moves" placeholder="Descreva ações de outras classes aqui"></textarea>
+
+    <h2>Anotações</h2>
+    <textarea id="notes"></textarea>
+
+    <script>
+        document.querySelectorAll(".choosey").forEach(node => {
+            node.onclick = () => node.classList.toggle("chosen");
+        });
+
+        const extraHeader = document.getElementById('extra-header');
+        if (extraHeader.innerHTML == "") {
+            extraHeader.classList.add("dnone");
+        }
+    </script>
+</body>
+</html>

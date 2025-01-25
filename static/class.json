@@ -1,0 +1,581 @@
+{
+    "farol": {
+        "#CLASSE#": "farol",
+        "#APARENCIA#": [
+            ["andrógino", "fluido", "trans", "mulher", "homem"],
+            ["asiático", "negro", "latino", "indígena", "oriente médio", "branco"],
+            ["rosto sorridente", "cara ingênua", "rosto genérico", "rostinho bonito"],
+            ["roupas estilosas", "roupas confortáveis", "roupas simples", "roupas casuais"],
+            ["traje espalhafatoso", "traje estiloso", "traje cafona", "traje icônico"]
+        ],
+        "#DESCRICAO-HABILIDADES#": "Se tiver superpoderes, são bem fracos. Se for habilidades, você tem o equipamento necessário. Escolha dois.",
+        "#HABILIDADES#": [
+            "arco e flechas especiais", "espadas", "artes marciais", "acrobacia", "camuflagem e furtividade", "intangibilidade"
+        ],
+        "#FREAK#": -1,
+        "#DANGER#": -1,
+        "#SAVIOR#": 2,
+        "#SUPERIOR#": 0,
+        "#MUNDANE#": 2,
+        "#WHENMET#": "Encontramos sinais que esse incidente era só o começo de algo maior. Quais eram os sinais?",
+        "#INFLUENCE#": "Você está tão feliz de estar aqui! Dê Influência para 3 dos seus colegas.",
+        "#REL1PRE#": "",
+        "#REL1POST#": "é muito legal! Quando te chama pro rolê, você sempre aceita.",
+        "#REL2PRE#": "Você acha que tem que se provar para",
+        "#REL2POST#": "antes de ser um herói de verdade.",
+        "#EXTRAS#": "Motivações",
+        "#EXTRABLURB#": "Quando preencher uma motivação escolhida, a marque e escolha um: marque potencial, limpe uma condição ou escolha Influência sobre alguém envolvido.</p><p>Quando todas estiverem marcadas, escolha uma nova classe, se aposente ou vire um exemplo da cidade.",
+        "#MOMENTOFTRUTH#": "Isso é o momento que você mostra pra eles exatamente porque você merece estar aqui. Você faz qualquer uma coisa, derrota um inimigo, não importa quão insano ou quão ridículo, porque é você. Os queixos vão cair quando você terminar. Mas é claro, fazer algo assim traz atenção indesejada e uma reputação perigosa ...",
+        "#TRIUMPH#": "diga pra eles como eles são maneiros e adicione um ponto de Equipe ao pote. Se falaram pra você que é legal também, adicione mais um ponto de Equipe ao pote.",
+        "#SHAREWEAK#": "pergunte se você deve estar aqui. Se disserem sim, marque um Potencial e dê Influência. Se não, marque Raiva e mude rótulos, à sua escolha.",
+        "#MOVEBLURB#": "Escolha dois.",
+        "#BACKSTORY#": [
+            "Como ganhou suas habilidades?",
+            "Quando você vestiu o traje pela primeira vez?",
+            "Quem, fora da equipe, acha que você não deve ser um super-herói?",
+            "Porque você tenta ser um herói?",
+            "Porque você se importa com a equipe?"
+        ],
+        "#ADVANCEMENT1#": [
+            "Escolha outra ação de sua classe",
+            "Escolha outra ação de sua classe",
+            "Escolha uma ação de outra classe",
+            "Escolha uma ação de outra classe",
+            "Escolha uma ação de outra classe",
+            "Alguém permanentemente perde Influência sobre você",
+            "Adicione +1 a um rótulo",
+            "Reorganize seus rótulos como quiser e adicione +1 a um rótulo",
+            "Destrave seu Momento de Verdade"
+        ],
+        "#ADVANCEMENT2#": [
+            "Destrave seu segundo Momento de Verdade",
+            "Mude de classe",
+            "Escolha uma Ação de Adulto",
+            "Escolha uma Ação de Adulto",
+            "Congele um rótulo e adicione +1 a um rótulo a sua escolha",
+            "Se aposente ou vire um exemplo da cidade"
+        ],
+        "#EXTRA-LIST#": [
+            "liderou a equipe em batalha",
+            "beijou alguém perigoso",
+            "socou alguém que não devia",
+            "ajudou um colega quando mais precisava de você",
+            "derrotou uma ameaça sozinho",
+            "fez melhor que um herói adulto",
+            "conseguiu fazer algo que não devia dar certo",
+            "salvou a vida de um colega",
+            "ficou bêbado ou alto com um colega",
+            "dirigiu um veículo fantástico",
+            "trocar de traje",
+            "trocar o nome de herói",
+            "conseguir o respeito de um herói que você admira",
+            "dar uns amassos com um colega",
+            "socar um colega",
+            "terminar com alguém",
+            "apartar uma briga",
+            "contar seus sentimentos verdadeiros para alguém",
+            "viajar para um lugar (ou tempo) incrível",
+            "rejeitar a influência de alguém que diz que você \"não devia estar aqui\""
+        ],
+        "#MOVES#": [
+            "<strong>Sempre alerta</strong>: Quando estiver observando um lugar, role <strong>+ Mundano</strong>. Em sucesso, pergunte uma (e se completo, pergunte um a mais):<ul><li>qual é o melhor jeito de entrar ou sair?</li><li>o que aconteceu aqui recentemente</li><li>o que aqui vale a pena pegar?</li><li>quem ou o quê aqui não é o que parece ser?</li><li>esse lugar é de quem?</li></ul><p>Se falhar, você está lidando com algo além do que você consegue. O mestre vai te dizer porque.</p>",
+            "<strong>Sem poderes ou treinamento</strong>: Você tá sempre pegando equipamento novo para se manter afiado. Sempre que pegar um equipamento novo, escreva na caixa abaixo (se vazia) e trate como uma nova habilidade.<div><input type=\"text\" id=\"beacon-extra-gear\"></div>A primeira vez que você usar cada equipamento para engajar uma ameaça, soltar seus poderes ou defender alguém, você pode rolar <strong>+ Mundano</strong> invés do rótulo normal.",
+            "<strong>Não vou te decepcionar</strong>: Quando você ajudar um colega, você pode gastar 2 pontos de Equipe para adicionar +2 à rolagem.",
+            "<strong>Basicamente um super-herói</strong>: Quando você mencionar seu nome de super-herói para alguém importante (você decide) pela primeira vez, role <strong>+ Salvador</strong>.<p>Em sucesso, eles ouviram falar de você; diga qual de seus feitos eles ouviram e qual rótulo eles acham que se aplica. Se não for completo, o mestre vai te dizer algo a mais que eles ouviram e escolher uma segunda ameaça.</p>Em caso de falha, eles não te levam a sério ou não confiam em você daqui em diante.",
+            "<strong>Vem cá, Krypto</strong>: Você tem um mascote de algum tipo, um companheiro menor que te ajuda. Detalhe o que é, escolha três ações básicas e diga ao mestre como ele te ajuda com essas ações.<br /><br />Toda vez que o mascote possa te ajudar, você ganha +1 para essa ação. Se em algum momento ele se machucar, trate como tomar um porradão.",
+            "<strong>Chupa, otário!</strong>: Quando você está sendo atacado dramaticamente e não desiste, role <strong>+ Salvador</strong> invés do rótulo normal para engajar uma ameaça."
+        ]
+    },
+    "touro": {
+        "#CLASSE#": "touro",
+        "#APARENCIA#": [
+            ["andrógino", "fluido", "trans", "mulher", "homem"],
+            ["asiático", "negro", "latino", "indígena", "oriente médio", "branco"],
+            ["mãos com calos", "mãos sujas", "mãos não humanas", "mãos machucadas"],
+            ["roupas largas", "roupas rasgadas", "roupas sujas", "roupas casuais"],
+            ["traje simples", "traje memorável", "traje exagerada", "sem traje"]
+        ],
+        "#DESCRICAO-HABILIDADES#": "Algo ou alguém te mudou, te fez virar uma arma perfeita: resistência super-humana, força incrível e habilidade única para lutar. Decida como cada uma dessas habilidades se manifesta.",
+        "#HABILIDADES#": [],
+        "#FREAK#": 1,
+        "#DANGER#": 2,
+        "#SAVIOR#": -1,
+        "#SUPERIOR#": 1,
+        "#MUNDANE#": -1,
+        "#WHENMET#": "Derrotamos um inimigo poderoso. Quem ou o quê era?",
+        "#INFLUENCE#": "Você é bem seletivo sobre para quem você se abre. Dê influência para o seu amor e seu rival, mas só eles.",
+        "#REL1PRE#": "",
+        "#REL1POST#": "é o seu amor, para quem você se abriu e contou sobre as piores partes do seu passado.",
+        "#REL2PRE#": "",
+        "#REL2POST#": "é o seu rival, que tentou te controlar em um momento crucial.",
+        "#EXTRAS#": "O coração do touro",
+        "#EXTRABLURB#": "Você sempre tem exatamente um amor e um rival. Você pode mudar seu amor ou rival a qualquer hora, mas seja quem for, sempre vai ter Influência sobre você. Tome +1 em diante para qualquer ação que impressione seu amor ou frustre seu rival. Escolha um papel que você comumente preenche para seu amor ou rival:",
+        "#MOMENTOFTRUTH#": "Isso é o que você faz de melhor. Você solta toda sua raiva acumulada e você quebra tudo que estiver no seu caminho. Você é um demolidor ambulante. Quem pode te parar? Nada. Nem prédios, nem inimigos, nada. Claro, agora quem te mudou sabe exatamente onde te encontrar ...",
+        "#TRIUMPH#": "faça eles serem seu amor ou rival e marque potencial. Se já são seu amor ou rival, toma influência sobre eles e marque potencial.",
+        "#SHAREWEAK#": "dê influência a eles e guarde 2. Gaste os pontos guardados para ajudar eles como se fosse pontos de Equipe.",
+        "#MOVEBLURB#": "Escolha dois.",
+        "#BACKSTORY#": [
+            "Quem te mudou?",
+            "Como você fugiu?",
+            "Quem, fora da equipe, tenta te ajudar?",
+            "Porque você tenta ser um herói?",
+            "Porque você se importa com a equipe?"
+        ],
+        "#ADVANCEMENT1#": [
+            "Escolha outra ação de sua classe",
+            "Escolha outra ação de sua classe",
+            "Escolha uma ação de outra classe",
+            "Escolha uma ação de outra classe",
+            "Escolha dois outros papéis para o Coração do Touro",
+            "Alguém permanentemente perde Influência sobre você",
+            "Adicione +1 a um rótulo",
+            "Reorganize seus rótulos como quiser e adicione +1 a um rótulo",
+            "Destrave seu Momento de Verdade"
+        ],
+        "#ADVANCEMENT2#": [
+            "Destrave seu segundo Momento de Verdade",
+            "Mude de classe",
+            "Escolha uma Ação de Adulto",
+            "Escolha uma Ação de Adulto",
+            "Congele um rótulo e adicione +1 a um rótulo a sua escolha",
+            "Se aposente ou vire um exemplo da cidade"
+        ],
+        "#EXTRA-LIST#": [
+            "<strong>Defensor</strong>: Quando vai defender seu amor ou rival em batalha, role <strong>+ Perigo</strong> invés do rótulo normal para os defender.",
+            "<strong>Amigo</strong>: Quando confortar ou apoiar seu amor ou rival, marque potencial em um sucesso. Quando eles te confortam ou apoiam, marque potencial se eles tiverem sucesso.",
+            "<strong>Ouvinte</strong>: Quando perfura a máscara do amor ou rival, você sempre pode fazer uma pergunta adicional, mesmo em falha.",
+            "<strong>Irritante</strong>: Quando provocar seu amor ou rival, role <strong>+ Perigo</strong> se estiver tentando os provocar a fazer algo mal pensado."
+        ],
+        "#MOVES#": [
+            "<strong>Pistola</strong>: Sempre que tiver Raiva marcada, tome +1 em diante para soltar seus poderes",
+            "<strong>Cabeça pra quê?</strong>: Quando você provoca alguém com ameaças óbvias ou mostras de força, role <strong>+ Perigo</strong> invés do rótulo normal.",
+            "<strong>Socar todo mundo</strong>: Sempre que entrar na briga sem algum backup, você pode aumentar seu Perigo e diminuir qualquer outro rótulo.",
+            "<strong>Lá quando importa</strong>: Quando defender alguém, em sucesso você pode guardar 1 invés de escolher da lista. Gaste os pontos quando eles estiverem em perigo mais tarde para chegar na cena para ajudar.",
+            "<strong>Barbie Dano Colateral</strong>: Quando engajar com uma ameaça, você sempre pode causar dano colateral significativo para escolher uma opção extra, mesmo se falhar.",
+            "<strong>Física, que física?</strong>: Quando soltar seus poderes para quebrar uma barreira inquebrável, role <strong>+ Perigo</strong> invés do rótulo normal."
+        ]
+    },
+    "delinquente": {
+        "#CLASSE#": "delinquente",
+        "#APARENCIA#": [
+            ["andrógino", "fluido", "trans", "mulher", "homem"],
+            ["asiático", "negro", "latino", "indígena", "oriente médio", "branco"],
+            ["olhos risonhos", "olhos cínicos", "olhos desconfiados", "olhos com ódio"],
+            ["roupas casuais", "roupas rasgadas", "roupas rebeldes", "roupas chamativas"],
+            ["traje biscate", "traje chamativo", "traje ridículo", "traje barato", "sem traje"]
+        ],
+        "#DESCRICAO-HABILIDADES#": "Seus poderes são frustrantes, complicados ou enganadores. Escolha dois:",
+        "#HABILIDADES#": ["teleporte", "truques e ilusões", "bugigangas e hackear", "armas psíquicas", "controle emocional", "negação de poderes"],
+        "#FREAK#": 0,
+        "#DANGER#": 0,
+        "#SAVIOR#": -1,
+        "#SUPERIOR#": 2,
+        "#MUNDANE#": 1,
+        "#WHENMET#": "Quebramos algumas regras importantes para vencer a luta. Quais regras quebramos, e regras de quem?",
+        "#INFLUENCE#": "Você se importa bem mais que transparece. Dê influência para 3 colegas.",
+        "#REL1PRE#": "Você tá sempre tentando impressionar",
+        "#REL1POST#": ".",
+        "#REL2PRE#": "Você e ",
+        "#REL2POST#": "tiveram um rolê muito legal (mesmo que ilegal) juntos.",
+        "#EXTRAS#": "",
+        "#EXTRABLURB#": "",
+        "#MOMENTOFTRUTH#": "Agora que você mostra quem você é de verdade. Se você é o herói debaixo da fachada de rebelde ... ou quem faz as escolhas difíceis que heróis não podem, ou querem, fazer. Você faz o que for necessário para mostrar a verdade, seja salvando o dia de um vilão terrível ou parando um cara mal de uma vez por todas. Mas é claro, que depois que mostrar quem é de verdade, não tem como voltar a se fingir de palhaço ...",
+        "#TRIUMPH#": "lhes pergunte se acham que você é legal. Se sim, dê e receba Influência. Se não, marque uma condição e os rejeite imediatamente. Se forem colegas, independente da resposta, adicione um ponto de Equipe ao ponto.",
+        "#SHAREWEAK#": "lhes dê Influência e pergunte quem que eles gostariam que você fosse. Marque potencial se você mostrar pra eles essa pessoa. Se forem colegas, independente da resposta, adicione um ponto de Equipe ao pote.",
+        "#MOVEBLURB#": "Escolha dois.",
+        "#BACKSTORY#": [
+            "Como conseguiu seus poderes?",
+            "O que você faz pra se divertir?",
+            "Quem, fora do time, tem uma opinião melhor de você do que você tem de si mesmo?",
+            "Porque você tenta ser um herói?",
+            "Porque você se importa com a equipe?"
+        ],
+        "#ADVANCEMENT1#": [
+            "Escolha outra ação de sua classe",
+            "Escolha outra ação de sua classe",
+            "Escolha uma ação de outra classe",
+            "Escolha uma ação de outra classe",
+            "Alguém permanentemente perde Influência sobre você",
+            "Adicione +1 a dois rótulos",
+            "Reorganize seus rótulos como quiser e adicione +1 a um rótulo",
+            "Destrave seu Momento de Verdade"
+        ],
+        "#ADVANCEMENT2#": [
+            "Destrave seu segundo Momento de Verdade",
+            "Mude de classe",
+            "Escolha uma Ação de Adulto",
+            "Escolha uma Ação de Adulto",
+            "Congele um rótulo e adicione +1 a um rótulo a sua escolha",
+            "Se aposente ou vire um exemplo da cidade"
+        ],
+        "#EXTRA-LIST#": [
+        ],
+        "#MOVES#": [
+            "<strong>Do Contra</strong>: Quando alguém tenta perfurar sua máscara, te confortar ou apoiar ou te provocar, você pode interferir. Role <strong>+ Superior</strong>. Em sucesso, eles tomam -2 na sua rolagem. Se for completo, você também ganha influência sobre eles ou limpa uma condição. Em uma falha, eles ganham um sucesso completo independente do que rolarem e você marca uma condição a escolha deles.",
+            "<strong>Caguei pra você</strong>: Quando rejeitar a influência de alguém, adicione +2 a sua rolagem.",
+            "<strong>Time? Que time?</strong>: Quando você usa pontos de Equipe de maneira egoísta, limpe uma condição ou marque potencial. A primeira vez em uma sessão que usar pontos de Equipe para ajudar um colega, tome +1 na próxima.",
+            "<strong>Mente Criminosa</strong>: Quando avalia a situação, você você sempre pode perguntar uma das perguntas abaixo, mesmo em falha:<ul><li>o que aqui é útil ou valioso pra mim?</li><li>como posso irritiar ou provocar ____?</li><li>qual é o melhor jeito de entrar / passar pelo obstáculo?</li></ul>",
+            "<strong>Problemático</strong>: Quando ajuda um colega por ações destrutivas, criminosas ou que quebram regras, você pode dar +2 invés de +1 quando gasta um ponto de Equipe.",
+            "<strong>Tá prestando atenção?</strong>: Quando você distrai ou engana alguém, role <strong>+ Superior</strong>. Em sucesso, escolha dois e eles são enganados, pelo menos por enquanto. Se for sucesso completo, escolha um a mais:<ul><li>você ganha uma oportunidade</li><li>você expõe uma fraqueza ou falha</li><li>você confunde eles por algum tempo</li><li>você evita que a situação se extenda</li></ul>Em falha, você tá perdido e sob pressão: marque uma condição."
+        ]
+    },
+    "condenado": {
+        "#CLASSE#": "",
+        "#APARENCIA#": [
+            ["andrógino", "fluido", "trans", "mulher", "homem"],
+            ["asiático", "negro", "latino", "indígena", "oriente médio", "branco"]
+        ],
+        "#DESCRICAO-HABILIDADES#": "",
+        "#HABILIDADES#": [],
+        "#FREAK#": -1,
+        "#DANGER#": -1,
+        "#SAVIOR#": 2,
+        "#SUPERIOR#": 0,
+        "#MUNDANE#": 2,
+        "#WHENMET#": "",
+        "#INFLUENCE#": "",
+        "#REL1PRE#": "",
+        "#REL1POST#": "",
+        "#REL2PRE#": "",
+        "#REL2POST#": "",
+        "#EXTRAS#": "",
+        "#EXTRABLURB#": "",
+        "#MOMENTOFTRUTH#": "",
+        "#TRIUMPH#": "",
+        "#SHAREWEAK#": "",
+        "#MOVEBLURB#": "Escolha dois.",
+        "#BACKSTORY#": [
+            "Porque você tenta ser um herói?",
+            "Porque você se importa com a equipe?"
+        ],
+        "#ADVANCEMENT1#": [
+        ],
+        "#ADVANCEMENT2#": [
+        ],
+        "#EXTRA-LIST#": [
+        ],
+        "#MOVES#": []
+    },
+    "jano": {
+        "#CLASSE#": "jano",
+        "#APARENCIA#": [
+            ["andrógino", "fluido", "trans", "mulher", "homem"],
+            ["asiático", "negro", "latino", "indígena", "oriente médio", "branco"],
+            ["roupas sem graça","roupas elegantes","roupas formais","roupas de luxo"],
+            ["traje icônico","traje discreto","traje devaneador","traje chamativo"],
+            ["máscara inexpressiva","capacete","máscara de personagem","máscara pequena","capuz","disfarce completo"]
+        ],
+        "#DESCRICAO-HABILIDADES#": "Sua aparência permanece inalterada por suas habilidades, e você pode manter sua poderes ocultos. Você tem habilidades físicas aprimoradas (força, agilidade, resistência) e escolha duas habilidades únicas",
+        "#HABILIDADES#": ["controlar roedores ou insetos","veneno, teias ou gerar ossos","absorção de energia","sentidos sobrenaturais","mobilidade impossível","mimetismo de substâncias"],
+        "#FREAK#": -1,
+        "#DANGER#": 0,
+        "#SAVIOR#": 0,
+        "#SUPERIOR#": 0,
+        "#MUNDANE#": 3,
+        "#WHENMET#": "Salvamos a vida de alguém importante, seja para a cidade ou para nós. Quem foi? Por que ele(a) é importante?",
+        "#INFLUENCE#": "Você admira seus companheiros de equipe; eles parecem bem resolvidos com essa coisa de super herói. Dê Influência a dois deles.",
+        "#REL1PRE#": " ",
+        "#REL1POST#": "te conhecia primeiro na sua vida civil.",
+        "#REL2PRE#": "Você se recusou a contar sua identidade secreta para ",
+        "#REL2POST#": "quando te perguntou",
+        "#EXTRAS#": "Identidade Secreta",
+        "#EXTRABLURB#": "Sua vida civil vem com uma série de obrigações. Com a passagem do tempo, role <strong>+ Mundano</strong> para ver como você está gerenciando suas obrigações. Em sucesso total, as coisas vão muito bem – você tem uma oportunidade ou vantagem graças a uma de suas obrigações.<br/><br/>Em sucesso não completo, você descumpriu uma obrigação, da sua escolha.<br /><br/>Em falha, você não deu a atenção que sua vida civil precisava; o GM escolhe duas obrigações que vão te atrapalhar.<br /><br/>Escolha três obrigações:",
+        "#MOMENTOFTRUTH#": "A máscara é uma mentira, e uma parte de você sempre soube disso. Não importa se outros podem ver. Você é aquele que pode fazer o impossível. Tire a máscara. Vista o traje. E você vai salvar o maldito dia. Claro, é melhor torcer para que ninguém desagradável te notar…",
+        "#TRIUMPH#": "pergunte se você é visto como a pessoa que usa a máscara ou a pessoa que está por baixo dela. No primeiro caso, marque Potencial e elimine uma condição. Neste último caso, tome Influência se você se revelar.",
+        "#SHAREWEAK#": "conte-lhe um segredo sobre quem você realmente é. Dê Influência, aumente <strong>Mundano</strong> e diminua <strong>Máscara</strong>.",
+        "#MOVEBLURB#": "Você começa com \"A Máscara\" e outros dois de sua escolha.",
+        "#BACKSTORY#": [
+            "Quando você pôs a máscara pela primeira vez? Por que?",
+            "Porque você mantém sua identidade secreta?",
+            "Quem, fora da equipe, sabe da sua vida dupla?",
+            "Quem pensa o pior da sua identidade mascarada?",
+            "Porque você se importa com a equipe?"
+        ],
+        "#ADVANCEMENT1#": [
+            "Escolha outra ação de sua classe",
+            "Escolha outra ação de sua classe",
+            "Escolha uma ação de outra classe",
+            "Escolha uma ação de outra classe",
+            "Alguém perde permanentemente a Influência sobre você e adicione +1 a um rótulo a sua escolha",
+            "Mude o rótulo da sua Máscara e adicione +1 ao novo rótulo",
+            "Destrave seu Momento da Verdade",
+            "Ganhe as \"Motivações\" da classe \"Farol\""
+        ],
+        "#ADVANCEMENT2#": [
+            "Destrave seu segundo Momento da Verdade",
+            "Troque de Classe",
+            "Escolha uma Ação de Adulto",
+            "Escolha uma Ação de Adulto",
+            "Congele um rótulo e adicione +1 a um rótulo a sua escolha",
+            "Se aposente ou vire um exemplo da cidade"
+        ],
+        "#EXTRA-LIST#": [
+            "Trabalho: Barista, estagiário, recepcionista, entregador, trabalhador de fast-food, babá, lava-louças, etc.",
+            "Escola: Trabalhos escolares, equipe atlética, clube de xadrez, clube de fotografia, grêmio estudantil, etc.",
+            "Casa: Cuidar de alguém, tarefas domésticas, pagar contas, barriga de aluguel, etc.",
+            "Social: companheiro(a), melhor amigo, popularidade, parente próximo, treinador, professor"
+        ],
+        "#MOVES#": [
+            "<strong>A Máscara</strong>: Você veste a máscara e esconde sua verdadeira identidade. Escolha qual rótulo você tenta incorporar ao vestir sua máscara:<ul><li class=\"choosey\">Esquisito</li><li class=\"choosey\">Perigo</li><li class=\"choosey\">Salvador</li><li class=\"choosey\">Superior</li></ul><br/>Uma vez por sessão, você pode afirmar sua identidade heroica ou secreta para trocar seu Mundano pelo rótulo da sua Máscara.<br/><br/>Quando revela sua identidade secreta para alguém pela primeira vez, marque um potencial",
+            "<strong>Face do jogo</strong>: Quando você se compromete a salvar alguém ou derrotar um inimigo terrível, marque uma condição e receba +1 em diante para todos os testes que diretamente tentam resolver esse objetivo. No final de qualquer cena em que você não progrida em direção a esse objetivo, marque uma condição. Quando cumprir seu objetivo, marque potencial.",
+            "<strong>Eu sou o que está vendo</strong>: Quando você passa um tempo conversando com alguém sobre sua identidade, você pode perguntar qual rótulo querem impor a você; o jogador vai responder honestamente. Se você aceitar o que for dito, receba +1 no rótulo e marque Potencial ou elimine uma condição.",
+            "<strong>Moderado</strong>: Quando você tentar usar sua identidade civil para despistar, enganar ou passar despercebido por alguém, role <strong>+ Mundano</strong>. Em um sucesso, eles compram sua fachada. Se não for um sucesso completo, escolha um:<ul><li>Você continua sendo observado</li><li>Você deixa algo incriminador para trás</li><li>Você é forçado a se ridicularizar para manter a fachada</li></ul><br/>Em falha, uma de suas obrigações civis aparece.",
+            "<strong>Vou te salvar!</strong>: Você está disposto a pagar custos mais altos para manter seus entes queridos seguros. Revele sua identidade secreta para alguém que esteja assistindo ou marque uma condição para defender um ente querido como se você tivesse obtido um 12+.",
+            "<strong>Teia perigosa</strong>: Quando você revelar uma armadilha que deixou para alguém usando seus poderes, role <strong>+ Máscara</strong>. Em sucesso, seu oponente tropeça e você tem uma abertura ou oportunidade contra ele. Se sucesso completo, receba +1 para persegui-lo. Em falha, a armadilha escalona a situação para algo perigoso."]
+    },
+    "legado": {
+        "extranocheck": true,
+        "#CLASSE#": "legado",
+        "#APARENCIA#": [
+            ["andrógino", "fluido", "trans", "mulher", "homem"],
+            ["asiático", "negro", "latino", "indígena", "oriente médio", "branco"],
+            ["roupas confortáveis","uniforme escolar","roupas tradicionais","roupas da moda"],
+            ["traje moderno","traje tradicional","traje único","traje do antecessor"],
+            ["insígnia animal","insígnia de letra","insígnia de simples","sem insígnia"]
+        ],
+        "#DESCRICAO-HABILIDADES#": "Você tem poderes que correspondem à sua linha geral. Escolha um conjunto de poderes, e dentre eles escolha dois que você não possui:",
+        "#HABILIDADES#": [
+            "superforça, invencibilidade, raios oculares, vôo, super sentidos",
+            "supervelocidade, regeneração, atravessar sólidos, leitura ou aprendizado rápido, manipulação de ar",
+            "perfeição atlética, dedução sobre-humana, equipamentos e bugigangas, intimidação, reputação assustadora",
+            "armadura divina, arsenal mágico, força mística, velocidade lendária, beleza divina",
+            "controle de sombras, portais de sombras, confusão mental, manto de sombras furtivas, sentidos sombrios"
+        ],
+        "#FREAK#": 0,
+        "#DANGER#": -1,
+        "#SAVIOR#": 2,
+        "#SUPERIOR#": 0,
+        "#MUNDANE#": 1,
+        "#WHENMET#": "Considerando tudo o que rolou, nos saímos bem e impressionamos um herói estabelecido. Quem foi?",
+        "#INFLUENCE#": "Você faz parte desta equipe, para o bem ou para o mal, e se importa com o que eles pensam. Dê influência a todos de seus companheiros de equipe.",
+        "#REL1PRE#": "Uma vez você foi pego fazendo algo que envergonha seu legado com",
+        "#REL1POST#": "",
+        "#REL2PRE#": "Você confia em",
+        "#REL2POST#": "e lhe contou um importante segredo do seu legado",
+        "#EXTRAS#": "Legado",
+        "#EXTRABLURB#": "Seu legado é uma parte importante da cidade. Sempre que o tempo passar, role <strong>+ Salvador</strong> para ver como os membros do seu legado se sentem ou reagem às suas façanhas mais recentes.<br /><br />Antes de rolar, faça essas perguntas aos outros jogadores, e receba -1 na rolagem para cada “não”:<ul><li>você tem mantido as tradições do seu legado?</li><li>você manteve a imagem do seu legado?</li><li>você deixou os outros membros do seu legado orgulhosos?</li></ul>Em sucesso, um deles oferece um incentivo significativo, uma oportunidade ou uma vantagem. Se não for completo, algum deles está chateado com suas ações mais recentes e manifestará seu descontentamento. Em falha, algo que você fez despertou o ninho de vespas; espere que vários membros de seu legado se intrometam em sua vida.<br/><br />Nomeie os diferentes membros do seu legado (pelo menos dois)",
+        "#MOMENTOFTRUTH#": "Este é o momento em que você prova o quanto você merece o manto. Você assume o controle de todos os seus poderes e faz o quase impossível para provar que é digno do nome que carrega.<br/><br/>Você realiza proezas que nem mesmo seus antecessores poderiam realizar. É claro que, depois de provar algo assim, você pode esperar que ainda mais responsabilidades sejam atribuídas a você ...",
+        "#TRIUMPH#": "diga se você o vê como igual. Se você fizer isso, dê influência sobre você e marque Potencial. Caso contrário, suba Superior e desça qualquer outro rótulo.",
+        "#SHAREWEAK#": "conte um segredo sobre seu legado (incluindo seus próprios sentimentos verdadeiros sobre isso) para limpar uma condição, e dê Influência sobre você",
+        "#MOVEBLURB#": "Escolha dois.",
+        "#BACKSTORY#": [
+            "Quando você se tornou parte do seu legado?",
+            "Qual o maior feito de seu legado?",
+            "Como o público percebe seu legado?",
+            "Como seu legado se entrelaça aos motivos de você se tornar um herói?",
+            "Porque você se importa com a equipe?"
+        ],
+        "#ADVANCEMENT1#": [
+            "Escolha outra ação de sua classe",
+            "Escolha outra ação de sua classe",
+            "Escolha uma ação de outra classe",
+            "Alguém perde permanentemente a Influência sobre você, adicione +1 a um rótulo a sua escolha",
+            "Reorganize seus rótulos como quiser e adicione +1 a um rótulo",
+            "Destrave seu Momento da Verdade",
+            "Receba um Santuário da classe do Condenado",
+            "Desbloqueie os dois poderes faltantes do seu conjunto do legado"
+        ],
+        "#ADVANCEMENT2#": [
+            "Destrave seu segundo Momento da Verdade",
+            "Troque de Classe",
+            "Escolha uma Ação de Adulto",
+            "Escolha uma Ação de Adulto",
+            "Congele um rótulo e adicione +1 a um rótulo a sua escolha",
+            "Se aposente ou vire um exemplo da cidade"
+        ],
+        "#EXTRA-LIST#": [
+            "<input type=\"text\"> ainda está ativo e proeminente na cidade",
+            "<input type=\"text\"> está aposentado e bastante crítico.",
+            "<input type=\"text\"> é o próximo possível membro do seu legado",
+            "<input type=\"text\"> é o maior oponente que seu legado já enfrentou... e ainda está foragido"
+        ],
+        "#MOVES#": [
+            "<strong>Lutar a boa luta</strong>: Ao trocar golpes enquanto engaja diretamente com uma ameaça, você pode rolar <strong>+ Salvador</strong> ao invés de <strong>Perigo</strong>. Ao fazer isso não pode tentar Impressionar, Surpreender ou Ameaçar seu oponente",
+            "<strong>Eu sei o que sou</strong>: Uma vez por cena ao defender um colega de equipe pode aumentar Salvador e diminuir em um outro rótulo em adição a quaisquer outros benefícios do movimento mesmo se falhar.Se fizer isso, adiciona 1 ponto de Equipe ao pote.",
+            "<strong>Palavras do passado</strong>: Ao buscar a orientação de um adulto ou de um membro de seu legado, conte um problema que você enfrenta e faça uma pergunta sobre o problema. Você vai receber uma resposta honesta e um conselho sobre o que fazer. Receba +1 em diante se você ouvir. Se você seguir seu próprio caminho, marque Potencial",
+            "<strong>Assuntos do legado</strong>: Quando você toma Influência sobre alguém do seu legado (ou dá Influência sobre você), marque Potencial e receba + 1 na próxima. Quando alguém do seu legado mudar seus rótulos, marque Potencial e receba +1 na próxima.",
+            "<strong>Nunca desista, nunca se renda</strong>: Quando você receber um golpe poderoso de alguém muito mais poderoso que você, use essa Ação invés da básica. Role <strong>+ Salvador</strong>. Em sucesso, você se mantém forte e escolhe um:<ul><li>você tem uma oportunidade ou abertura contra seu atacante</li><li>você se recupera do golpe e isso inspira a equipe; adicione 1 ponto de Equipe ao pote</li><li>você mantém a atenção do seu atacante</li></ul><br/>Se não for sucesso completo, marque uma condição. Em falha, você cai com força, mas deixa seu oponente desequilibrado e vulnerável.",
+            "<strong>Símbolo de autoridade</strong>: Quando você dá uma ordem a um NPC com base na autoridade que ele reconhece, role <strong>+ Salvador</strong>. Com um acerto, o NPC escolhe um:<ul><li>fazer o que você diz</li><li>sair do seu caminho</li><li>desvantagem para atacar você</li><li>congelar</li></ul><br/>Se for sucesso completo, você também recebe +1 em diante contra o NPC. Em uma falha, o NPC faz o que quer e você recebe -1 em diante contra eles."
+        ]
+    },
+    "supernova": {
+        "#CLASSE#": "supernova",
+        "#APARENCIA#": [
+            ["andrógino", "fluido", "trans", "mulher", "homem"],
+            ["asiático", "negro", "latino", "indígena", "oriente médio", "branco"],
+            ["pele brilhante","pele inorgânica","pele marcada","pele normal"],
+            ["roupas fashion","roupas casuais","roupas formais", "roupas sombrias"],
+            ["traje colorido","traje uniforme","traje mitológico","traje fantástico","sem traje"]
+        ],
+        "#DESCRICAO-HABILIDADES#": "Você pode controlar fundamentalmente o mundo ao seu redor. Escolha uma opção da lista como base ampla do seu controle.",
+        "#HABILIDADES#": ["telecinese e telepatia","magia e feitiçaria", "biocinese","controle elemental","manipulação de gravidade","energias cósmicas"],
+        "#FREAK#": 2,
+        "#DANGER#": 1,
+        "#SAVIOR#": 0,
+        "#SUPERIOR#": 0,
+        "#MUNDANE#": -1,
+        "#WHENMET#": "Destruímos nossos arredores na luta. Onde foi? O que destruímos?",
+        "#INFLUENCE#": "Escolha o seu comportamento: fachada feliz ou fechado.<br><br>Se você escolher a fachada feliz, dê Influência a três companheiros de equipe.<br>Se você escolher fechado, dê Influência a um companheiro de equipe.",
+        "#REL1PRE#": "Você sai o tempo todo com",
+        "#REL1POST#": "para desabafar.",
+        "#REL2PRE#": "Uma vez você machucou",
+        "#REL2POST#": "quando você perdeu o controle de seus poderes",
+        "#EXTRAS#": "",
+        "#EXTRABLURB#": "",
+        "#MOMENTOFTRUTH#": "Os olhos da sua mente se abrem e você pode ver o mundo ao seu redor como nunca antes. Você pode controlá-lo à vontade, com facilidade. É claro que distorcer a realidade tende a ter ramificações no futuro, mas em seu momento de divindade... como você poderia estar preocupado?",
+        "#TRIUMPH#": "Ao compartilhar uma celebração triunfante com alguém, pergunte se há algum medo em seus olhos quando olha para você. Se ele(a) disser não, receba +1 adiante e marque o potencial. Se ele(a) disser sim, imediatamente mude seu Perigo para cima e seu Salvador para baixo.",
+        "#SHAREWEAK#": "Quando você compartilhar uma vulnerabilidade ou fraqueza com alguém, diga como ele poderia impedi-lo, se for necessário. Dê-lhe influência sobre você e elimine uma condição.",
+        "#MOVEBLURB#": "<strong>Queimar</strong><br> Ao carregar seus poderes, role + condições que você têm atualmente. Com um acerto, ganhe 3 queimaduras. Com 7-9, marque uma condição. Se falhar, ganhe 2 queimaduras e marque três condições.<br>Gaste suas queimaduras em suas chamas. Você perde todas as queimaduras no final da cena.<br>Escolha quatro chamas",
+        "#BACKSTORY#": [
+            "Quando você usou seus poderes pela primeira vez?",
+            "Quem foi a primeira pessoa que você acidentalmente machucou com seus poderes?",
+            "Quem, fora da equipe, te ajuda a controlar seus poderes?",
+            "Por que você continua usando seus poderes?",
+            "Porque você se importa com a equipe?"
+        ],
+        "#ADVANCEMENT1#": [
+            "Escolha uma ação de outra classe",
+            "Escolha uma ação de outra classe",
+            "Alguém perde permanentemente a Influência sobre você, adiciohe +1 a uma etiqueta a sua escolha",
+            "Reorganize suas etiquetas como quiser e adicione +1 a uma etiqueta",
+            "Destrave seu Momento da Verdade",
+            "Desbloqueie três novas chamas",
+            "Desbloqueie três novas chamas",
+            "Receba o Coração do Touro da classe Touro",
+            "Destrave seu Momento da Verdade"
+        ],
+        "#ADVANCEMENT2#": [
+            "Destrave seu segundo Momento da Verdade",
+            "Troque de Classe",
+            "Escolha uma Ação de Adulto",
+            "Escolha uma Ação de Adulto",
+            "Congele uma etiqueta e adicione +1 a uma etiqueta a sua escolha",
+            "Se aposente ou vire um exemplo da cidade"
+        ],
+        "#EXTRA-LIST#": [
+        ],
+        "#MOVES#": [
+            "<strong>Tempestade de realidade</strong>: Você canaliza uma explosão destrutiva com seus poderes. Gaste 1 queimadura para enfrentar diretamente uma ameaça usando seus poderes, rolando + Estranho em vez de + Perigo. Se o fizer, causará danos colaterais indesejados, a menos que gaste outra queimadura.",
+            "<strong>Defender</strong>: Você invoca um campo de proteção rápido para parar um perigo. Gaste 1 queimadura para defender alguém de uma ameaça imediata, rolando + Estranho em vez de + Salvador. ",
+            "<strong>Construtos</strong>: Gaste 1 queimadura para criar qualquer objeto com seus poderes, até o tamanho de um pessoa. Gaste uma queimadura adicional para animar o construto independentemente de você. A construção se dissolve no final da cena.",
+            "<strong>Fosso</strong>: Gaste 1 queimadura para criar uma barreira que irá conter as ameaças, desde que você mantenha sua atenção nela. O Mestre pode pedir que você gaste outra queimadura se a barreira estiver ameaçada por inimigos particularmente poderosos.",
+            "<strong>Adoração</strong>: Você faz uma tremenda demonstração de seu poder. Gaste 1 queimadura para impressionar o público em silêncio, respeito e atenção quando você libera seus poderes.",
+            "<strong>Mover</strong>: Gaste 1 queimadura para se mover para qualquer lugar que você escolher dentro da cena, rompendo ou escapando de quaisquer barreiras ou restrições em seu caminho. Gaste uma segunda queimadura para ir para qualquer lugar onde você já esteve.",
+            "<strong>Foirtalecer</strong>: Gaste 1 queimadura para turbinar os esforços de um companheiro de equipe com seus poderes, dando-lhes um bônus de +1 em suas jogadas, como se você tivesse gasto a reserva do Time.",
+            "<strong>Sobrecarregar</strong>: Você canaliza toda a capacidade de seus incríveis poderes para superar um obstáculo, remodelar seu ambiente ou ampliar seus sentidos. Gaste 2 queimaduras para receber 10+ ao liberar seus poderes.",
+            "<strong>Consciência Elemental</strong>: Gaste 1 queimadura e marque uma condição para abrir sua mente para o mundo ao seu redor com seus poderes. Você pode fazer qualquer pergunta sobre o mundo ao seu redor e o Mestre responderá honestamente.",
+            "<strong>Agarrar</strong>: Gaste 1 queimadura para usar seus poderes para capturar qualquer objeto com até o tamanho de uma pessoa, de alguém que esteja à vista."
+        ]
+    },
+    "forasteiro": {
+        "#CLASSE#": "",
+        "#APARENCIA#": [
+            ["andrógino", "fluido", "trans", "mulher", "homem"],
+            ["asiático", "negro", "latino", "indígena", "oriente médio", "branco"]
+        ],
+        "#DESCRICAO-HABILIDADES#": "",
+        "#HABILIDADES#": [],
+        "#FREAK#": -1,
+        "#DANGER#": -1,
+        "#SAVIOR#": 2,
+        "#SUPERIOR#": 0,
+        "#MUNDANE#": 2,
+        "#WHENMET#": "",
+        "#INFLUENCE#": "",
+        "#REL1PRE#": "",
+        "#REL1POST#": "",
+        "#REL2PRE#": "",
+        "#REL2POST#": "",
+        "#EXTRAS#": "",
+        "#EXTRABLURB#": "",
+        "#MOMENTOFTRUTH#": "",
+        "#TRIUMPH#": "",
+        "#SHAREWEAK#": "",
+        "#MOVEBLURB#": "Escolha dois.",
+        "#BACKSTORY#": [
+            "Porque você tenta ser um herói?",
+            "Porque você se importa com a equipe?"
+        ],
+        "#ADVANCEMENT1#": [
+        ],
+        "#ADVANCEMENT2#": [
+        ],
+        "#EXTRA-LIST#": [
+        ],
+        "#MOVES#": []
+    },
+    "mentorado": {
+        "#CLASSE#": "",
+        "#APARENCIA#": [
+            ["andrógino", "fluido", "trans", "mulher", "homem"],
+            ["asiático", "negro", "latino", "indígena", "oriente médio", "branco"]
+        ],
+        "#DESCRICAO-HABILIDADES#": "",
+        "#HABILIDADES#": [],
+        "#FREAK#": -1,
+        "#DANGER#": -1,
+        "#SAVIOR#": 2,
+        "#SUPERIOR#": 0,
+        "#MUNDANE#": 2,
+        "#WHENMET#": "",
+        "#INFLUENCE#": "",
+        "#REL1PRE#": "",
+        "#REL1POST#": "",
+        "#REL2PRE#": "",
+        "#REL2POST#": "",
+        "#EXTRAS#": "",
+        "#EXTRABLURB#": "",
+        "#MOMENTOFTRUTH#": "",
+        "#TRIUMPH#": "",
+        "#SHAREWEAK#": "",
+        "#MOVEBLURB#": "Escolha dois.",
+        "#BACKSTORY#": [
+            "Porque você tenta ser um herói?",
+            "Porque você se importa com a equipe?"
+        ],
+        "#ADVANCEMENT1#": [
+        ],
+        "#ADVANCEMENT2#": [
+        ],
+        "#EXTRA-LIST#": [
+        ],
+        "#MOVES#": []
+    },
+    "transformado": {
+        "#CLASSE#": "",
+        "#APARENCIA#": [
+            ["andrógino", "fluido", "trans", "mulher", "homem"],
+            ["asiático", "negro", "latino", "indígena", "oriente médio", "branco"]
+        ],
+        "#DESCRICAO-HABILIDADES#": "",
+        "#HABILIDADES#": [],
+        "#FREAK#": -1,
+        "#DANGER#": -1,
+        "#SAVIOR#": 2,
+        "#SUPERIOR#": 0,
+        "#MUNDANE#": 2,
+        "#WHENMET#": "",
+        "#INFLUENCE#": "",
+        "#REL1PRE#": "",
+        "#REL1POST#": "",
+        "#REL2PRE#": "",
+        "#REL2POST#": "",
+        "#EXTRAS#": "",
+        "#EXTRABLURB#": "",
+        "#MOMENTOFTRUTH#": "",
+        "#TRIUMPH#": "",
+        "#SHAREWEAK#": "",
+        "#MOVEBLURB#": "Escolha dois.",
+        "#BACKSTORY#": [
+            "Porque você tenta ser um herói?",
+            "Porque você se importa com a equipe?"
+        ],
+        "#ADVANCEMENT1#": [
+        ],
+        "#ADVANCEMENT2#": [
+        ],
+        "#EXTRA-LIST#": [
+        ],
+        "#MOVES#": []
+    }
+}
